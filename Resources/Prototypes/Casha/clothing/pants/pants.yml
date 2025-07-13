@@ -1,0 +1,1251 @@
+- type: entity
+  parent: pantsbase
+  id: LPPBeeShorts
+  name: bee shorts
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/bee_shorts.rsi
+
+#-------------------BoxerBriefs-----------------------
+
+- type: entity
+  parent: pantsbase
+  id: LPPBoxerBriefsBlack
+  name: Боксеры
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/BoxerBriefs/black.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPBoxerBriefsBlue
+  name: Боксеры
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/BoxerBriefs/blue.rsi
+
+#-------белая одежда
+
+- type: entity
+  parent: pantsbase
+  id: LPPBoxerBriefs
+  name: Боксеры
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/BoxerBriefs/boxer_briefs.rsi
+
+#-----------------
+
+- type: entity
+  parent: pantsbase
+  id: LPPBoxerBriefsBrown
+  name: Боксеры
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/BoxerBriefs/brown.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPBoxerBriefsGreen
+  name: Боксеры
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/BoxerBriefs/green.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPBoxerBriefsGrey
+  name: Боксеры
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/BoxerBriefs/grey.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPBoxerBriefsLightpurple
+  name: Боксеры
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/BoxerBriefs/lightpurple.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPBoxerBriefsMaroon
+  name: Боксеры
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/BoxerBriefs/maroon.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPBoxerBriefsOrange
+  name: Боксеры
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/BoxerBriefs/orange.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPBoxerBriefsRed
+  name: Боксеры
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/BoxerBriefs/red.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPBoxerBriefsTeal
+  name: Боксеры
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/BoxerBriefs/teal.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPBoxerBriefsYellow
+  name: Боксеры
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/BoxerBriefs/yellow.rsi
+
+#-----------------------Boxer---------------------------
+
+- type: entity
+  parent: pantsbase
+  id: LPPBoxerBlack
+  name: boxer
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Boxers/black.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPBoxerBlue
+  name: boxer
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Boxers/blue.rsi
+#-------белая одежда
+- type: entity
+  parent: pantsbase
+  id: LPPBoxer
+  name: boxer
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Boxers/boxers.rsi
+#-------------------
+- type: entity
+  parent: pantsbase
+  id: LPPBoxerBrown
+  name: boxer
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Boxers/brown.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPBoxerGreen
+  name: boxer
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Boxers/green.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPBoxerGrey
+  name: boxer
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Boxers/grey.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPBoxerLightpurple
+  name: boxer
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Boxers/lightpurple.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPBoxerMaroon
+  name: boxer
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Boxers/maroon.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPBoxerOrange
+  name: boxer
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Boxers/orange.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPBoxerRed
+  name: boxer
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Boxers/red.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPBoxerTeal
+  name: boxer
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Boxers/teal.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPBoxerYellow
+  name: boxer
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Boxers/yellow.rsi
+
+#---------------------------------------------------
+
+- type: entity
+  parent: pantsbase
+  id: LPPBoxersCommie
+  name: boxers commie
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/boxers_commie.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPBoxersHeart
+  name: boxers heart
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/boxers_heart.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPBoxersStriped
+  name: boxers striped
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/boxers_striped.rsi
+
+#-----------------------Briefs--------------------------
+
+- type: entity
+  parent: pantsbase
+  id: LPPBriefsBlack
+  name: briefs
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Briefs/black.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPBriefsBlue
+  name: briefs
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Briefs/blue.rsi
+#-------белая одежда
+- type: entity
+  parent: pantsbase
+  id: LPPBriefs
+  name: briefs
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Briefs/briefs.rsi
+#-------------------
+- type: entity
+  parent: pantsbase
+  id: LPPBriefsBrown
+  name: briefs
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Briefs/brown.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPBriefsGreen
+  name: briefs
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Briefs/green.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPBriefsGrey
+  name: briefs
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Briefs/grey.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPBriefsLightpurple
+  name: briefs
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Briefs/lightpurple.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPBriefsMaroon
+  name: briefs
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Briefs/maroon.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPBriefsOrange
+  name: briefs
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Briefs/orange.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPBriefsRed
+  name: briefs
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Briefs/red.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPBriefsTeal
+  name: briefs
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Briefs/teal.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPBriefsYellow
+  name: briefs
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Briefs/yellow.rsi
+
+#--------------------Jockstrap----------------------
+
+- type: entity
+  parent: pantsbase
+  id: LPPJockstrapBlack
+  name: jockstrap
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Jockstrap/black.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPJockstrapBlue
+  name: jockstrap
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Jockstrap/blue.rsi
+#-------белая одежда
+- type: entity
+  parent: pantsbase
+  id: LPPJockstrap
+  name: jockstrap
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Jockstrap/jockstrap.rsi
+#-------------------
+- type: entity
+  parent: pantsbase
+  id: LPPJockstrapBrown
+  name: jockstrap
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Jockstrap/brown.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPJockstrapGreen
+  name: jockstrap
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Jockstrap/green.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPJockstrapGrey
+  name: jockstrap
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Jockstrap/grey.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPJockstrapLightpurple
+  name: jockstrap
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Jockstrap/lightpurple.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPJockstrapMaroon
+  name: jockstrap
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Jockstrap/maroon.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPJockstrapOrange
+  name: jockstrap
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Jockstrap/orange.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPJockstrapRed
+  name: jockstrap
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Jockstrap/red.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPJockstrapTeal
+  name: jockstrap
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Jockstrap/teal.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPJockstrapYellow
+  name: jockstrap
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Jockstrap/yellow.rsi
+
+#-----------------------Mankini-------------------------
+
+- type: entity
+  parent: pantsbase
+  id: LPPMankiniBlack
+  name: mankini
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Mankini/black.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPMankiniBlue
+  name: mankini
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Mankini/blue.rsi
+#-------белая одежда
+- type: entity
+  parent: pantsbase
+  id: LPPMankini
+  name: mankini
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Mankini/mankini.rsi
+#-------------------
+- type: entity
+  parent: pantsbase
+  id: LPPMankiniBrown
+  name: mankini
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Mankini/brown.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPMankiniGreen
+  name: mankini
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Mankini/green.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPMankiniGrey
+  name: mankini
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Mankini/grey.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPMankiniLightpurple
+  name: mankini
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Mankini/lightpurple.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPMankiniMaroon
+  name: mankini
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Mankini/maroon.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPMankiniOrange
+  name: mankini
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Mankini/orange.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPMankiniRed
+  name: mankini
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Mankini/red.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPMankiniTeal
+  name: mankini
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Mankini/teal.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPMankiniYellow
+  name: mankini
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Mankini/yellow.rsi
+
+#-------------------------------------------------
+#-----------------------Panties-------------------------
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesBeeKini
+  name: panties bee kini
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/panties_bee-kini.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesCommie
+  name: panties commie
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/panties_commie.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesKinky
+  name: panties kinky
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/panties_kinky.rsi
+
+#---------------------PantiesAlt-----------------------
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesAltBlack
+  name: panties alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesAlt/black.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesAltBlue
+  name: panties alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesAlt/blue.rsi
+#-------белая одежда
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesAlt
+  name: panties alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesAlt/panties_alt.rsi
+#-------------------
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesAltBrown
+  name: panties alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesAlt/brown.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesAltGreen
+  name: panties alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesAlt/green.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesAltGrey
+  name: panties alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesAlt/grey.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesAltLightpurple
+  name: panties alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesAlt/lightpurple.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesAltMaroon
+  name: panties alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesAlt/maroon.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesAltOrange
+  name: panties alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesAlt/orange.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesAltRed
+  name: panties alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesAlt/red.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesAltTeal
+  name: panties alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesAlt/teal.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesAltYellow
+  name: panties alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesAlt/yellow.rsi
+
+#---------------------PantiesNeko-----------------------
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesNekoBlack
+  name: panties neko
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesNeko/black.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesNekoBlue
+  name: panties neko
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesNeko/blue.rsi
+#-------белая одежда
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesNeko
+  name: panties neko
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesNeko/panties_neko.rsi
+#-------------------
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesNekoBrown
+  name: panties neko
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesNeko/brown.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesNekoGreen
+  name: panties neko
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesNeko/green.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesNekoGrey
+  name: panties neko
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesNeko/grey.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesNekoLightpurple
+  name: panties neko
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesNeko/lightpurple.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesNekoMaroon
+  name: panties neko
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesNeko/maroon.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesNekoOrange
+  name: panties neko
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesNeko/orange.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesNekoRed
+  name: panties neko
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesNeko/red.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesNekoTeal
+  name: panties neko
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesNeko/teal.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesNekoYellow
+  name: panties neko
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesNeko/yellow.rsi
+
+#---------------------PantiesThin-----------------------
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesThinBlack
+  name: panties thin
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesThin/black.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesThinBlue
+  name: panties thin
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesThin/blue.rsi
+#-------белая одежда
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesThin
+  name: panties thin
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesThin/panties_thin.rsi
+#-------------------
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesThinBrown
+  name: panties thin
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesThin/brown.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesThinGreen
+  name: panties thin
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesThin/green.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesThinGrey
+  name: panties thin
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesThin/grey.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesThinLightpurple
+  name: panties thin
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesThin/lightpurple.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesThinMaroon
+  name: panties thin
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesThin/maroon.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesThinOrange
+  name: panties thin
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesThin/orange.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesThinRed
+  name: panties thin
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesThin/red.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesThinTeal
+  name: panties thin
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesThin/teal.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPPantiesThinYellow
+  name: panties thin
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/PantiesThin/yellow.rsi
+
+#-------------------------------------
+
+
+- type: entity
+  parent: pantsbase
+  id: LPPStripedPanties
+  name: striped panties
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/striped_panties.rsi
+
+#---------------------------------------------------
+#----------------------Thong--------------------------
+
+- type: entity
+  parent: pantsbase
+  id: LPPThongBlack
+  name: thong
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Thong/black.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPThongBlue
+  name: thong
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Thong/blue.rsi
+#-------белая одежда
+- type: entity
+  parent: pantsbase
+  id: LPPThong
+  name: thong
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Thong/thong.rsi
+#-------------------
+- type: entity
+  parent: pantsbase
+  id: LPPThongBrown
+  name: thong
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Thong/brown.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPThongGreen
+  name: thong
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Thong/green.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPThongGrey
+  name: thong
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Thong/grey.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPThongLightpurple
+  name: thong
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Thong/lightpurple.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPThongMaroon
+  name: thong
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Thong/maroon.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPThongOrange
+  name: thong
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Thong/orange.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPThongRed
+  name: thong
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Thong/red.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPThongTeal
+  name: thong
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Thong/teal.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPThongYellow
+  name: thong
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Thong/yellow.rsi
+
+#-------------------------------------
+#------------------ThongBabydoll--------------------
+
+- type: entity
+  parent: pantsbase
+  id: LPPThongBabydollBlack
+  name: thong babydoll
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/ThongBabydoll/black.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPThongBabydollBlue
+  name: thong babydoll
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/ThongBabydoll/blue.rsi
+#-------белая одежда
+- type: entity
+  parent: pantsbase
+  id: LPPThongBabydoll
+  name: thong babydoll
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/ThongBabydoll/thong_babydoll.rsi
+#-------------------
+- type: entity
+  parent: pantsbase
+  id: LPPThongBabydollBrown
+  name: thong babydoll
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/ThongBabydoll/brown.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPThongBabydollGreen
+  name: thong babydoll
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/ThongBabydoll/green.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPThongBabydollGrey
+  name: thong babydoll
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/ThongBabydoll/grey.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPThongBabydollLightpurple
+  name: thong babydoll
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/ThongBabydoll/lightpurple.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPThongBabydollMaroon
+  name: thong babydoll
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/ThongBabydoll/maroon.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPThongBabydollOrange
+  name: thong babydoll
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/ThongBabydoll/orange.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPThongBabydollRed
+  name: thong babydoll
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/ThongBabydoll/red.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPThongBabydollTeal
+  name: thong babydoll
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/ThongBabydoll/teal.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPThongBabydollYellow
+  name: thong babydoll
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/ThongBabydoll/yellow.rsi
+
+#-------------------------------------
+#------------------CommandUnderwear--------------------
+
+- type: entity
+  parent: pantsbase
+  id: LPPCMOPanties
+  name: cmo panties
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Command/cmo.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPRDPanties
+  name: rd panties
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Command/rd.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPHOSPanties
+  name: hos panties
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Command/hos.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPCEPanties
+  name: ce panties
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Command/ce.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPQMPanties
+  name: qm panties
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Command/qm.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPHOPPanties
+  name: hop panties
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Command/hop.rsi
+
+- type: entity
+  parent: pantsbase
+  id: LPPCapPanties
+  name: cap panties
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/PANTS/Command/cap.rsi

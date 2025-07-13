@@ -1,0 +1,1560 @@
+#------------------------Bra------------------------
+
+- type: entity
+  parent: brabase
+  id: LPPBraBlack
+  name: bra
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/Bra/black.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraBlue
+  name: bra
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/Bra/blue.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraBrown
+  name: bra
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/Bra/brown.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraGreen
+  name: bra
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/Bra/green.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraGrey
+  name: bra
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/Bra/grey.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraLightpurple
+  name: bra
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/Bra/lightpurple.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraMaroon
+  name: bra
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/Bra/maroon.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraOrange
+  name: bra
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/Bra/orange.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraRed
+  name: bra
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/Bra/red.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraTeal
+  name: bra
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/Bra/teal.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraWhite
+  name: bra
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/Bra/white.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraAlt
+  name: bra alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraAlt/white.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraYellow
+  name: bra
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/Bra/yellow.rsi
+
+#---------------------------------------------------
+
+- type: entity
+  parent: brabase
+  id: LPPBraBeeKini
+  name: bra bee kini
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/brabeekini.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraCommie
+  name: bra commie
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/bracommie.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraKinky
+  name: bra kinky
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/brakinky.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraThin
+  name: bra thin
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/brathin.rsi
+
+#-----------------------BraAlt----------------------
+
+- type: entity
+  parent: brabase
+  id: LPPBraAltBlack
+  name: bra alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraAlt/black.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraAltBlue
+  name: bra alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraAlt/blue.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraAltBrown
+  name: bra alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraAlt/brown.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraAltGreen
+  name: bra alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraAlt/green.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraAltGrey
+  name: bra alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraAlt/grey.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraAltLightpurple
+  name: bra alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraAlt/lightpurple.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraAltMaroon
+  name: bra alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraAlt/maroon.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraAltOrange
+  name: bra alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraAlt/orange.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraAltRed
+  name: bra alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraAlt/red.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraAltTeal
+  name: bra alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraAlt/teal.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraAltWhite
+  name: bra alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraAlt/white.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraAltYellow
+  name: bra alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraAlt/yellow.rsi
+
+#---------------------BraBinder----------------------
+
+- type: entity
+  parent: brabase
+  id: LPPBraBinderBlack
+  name: bra binder
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraBinder/black.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraBinderBlue
+  name: bra binder
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraBinder/blue.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraBinderBrown
+  name: bra binder
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraBinder/brown.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraBinderGreen
+  name: bra binder
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraBinder/green.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraBinderGrey
+  name: bra binder
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraBinder/grey.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraBinderLightpurple
+  name: bra binder
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraBinder/lightpurple.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraBinderMaroon
+  name: bra binder
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraBinder/maroon.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraBinderOrange
+  name: bra binder
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraBinder/orange.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraBinderRed
+  name: bra binder
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraBinder/red.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraBinderTeal
+  name: bra binder
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraBinder/teal.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraBinderWhite
+  name: bra binder
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraBinder/white.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraBinderYellow
+  name: bra binder
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraBinder/yellow.rsi
+
+#-----------------BraBinderStrapless-----------------
+
+- type: entity
+  parent: brabase
+  id: LPPBraBinderStraplessBlack
+  name: bra binder strapless
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraBinderStrapless/black.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraBinderStraplessBlue
+  name: bra binder strapless
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraBinderStrapless/blue.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraBinderStraplessBrown
+  name: bra binder strapless
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraBinderStrapless/brown.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraBinderStraplessGreen
+  name: bra binder strapless
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraBinderStrapless/green.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraBinderStraplessGrey
+  name: bra binder strapless
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraBinderStrapless/grey.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraBinderStraplessLightpurple
+  name: bra binder strapless
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraBinderStrapless/lightpurple.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraBinderStraplessMaroon
+  name: bra binder strapless
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraBinderStrapless/maroon.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraBinderStraplessOrange
+  name: bra binder strapless
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraBinderStrapless/orange.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraBinderStraplessRed
+  name: bra binder strapless
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraBinderStrapless/red.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraBinderStraplessTeal
+  name: bra binder strapless
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraBinderStrapless/teal.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraBinderStraplessWhite
+  name: bra binder strapless
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraBinderStrapless/white.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraBinderStraplessYellow
+  name: bra binder strapless
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraBinderStrapless/yellow.rsi
+
+#---------------------BraNeko----------------------
+
+- type: entity
+  parent: brabase
+  id: LPPBraNekoBlack
+  name: bra neko
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraNeko/black.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraNekoBlue
+  name: bra neko
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraNeko/blue.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraNekoBrown
+  name: bra neko
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraNeko/brown.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraNekoGreen
+  name: bra neko
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraNeko/green.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraNekoGrey
+  name: bra neko
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraNeko/grey.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraNekoLightpurple
+  name: bra neko
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraNeko/lightpurple.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraNekoMaroon
+  name: bra neko
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraNeko/maroon.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraNekoOrange
+  name: bra neko
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraNeko/orange.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraNekoRed
+  name: bra neko
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraNeko/red.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraNekoTeal
+  name: bra neko
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraNeko/teal.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraNekoWhite
+  name: bra neko
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraNeko/white.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraNekoYellow
+  name: bra neko
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraNeko/yellow.rsi
+
+#------------------BraStrapless-------------------
+
+- type: entity
+  parent: brabase
+  id: LPPBraStraplessBlack
+  name: bra strapless
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraStrapless/black.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraStraplessBlue
+  name: bra strapless
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraStrapless/blue.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraStraplessBrown
+  name: bra strapless
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraStrapless/brown.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraStraplessGreen
+  name: bra strapless
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraStrapless/green.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraStraplessGrey
+  name: bra strapless
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraStrapless/grey.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraStraplessLightpurple
+  name: bra strapless
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraStrapless/lightpurple.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraStraplessMaroon
+  name: bra strapless
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraStrapless/maroon.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraStraplessOrange
+  name: bra strapless
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraStrapless/orange.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraStraplessRed
+  name: bra strapless
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraStrapless/red.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraStraplessTeal
+  name: bra strapless
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraStrapless/teal.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraStraplessWhite
+  name: bra strapless
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraStrapless/white.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraStraplessYellow
+  name: bra strapless
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraStrapless/yellow.rsi
+
+#------------------BraStraplessAlt---------------------
+
+- type: entity
+  parent: brabase
+  id: LPPBraStraplessAltBlack
+  name: bra strapless alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraStraplessAlt/black.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraStraplessAltBlue
+  name: bra strapless alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraStraplessAlt/blue.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraStraplessAltBrown
+  name: bra strapless alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraStraplessAlt/brown.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraStraplessAltGreen
+  name: bra strapless alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraStraplessAlt/green.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraStraplessAltGrey
+  name: bra strapless alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraStraplessAlt/grey.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraStraplessAltLightpurple
+  name: bra strapless alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraStraplessAlt/lightpurple.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraStraplessAltMaroon
+  name: bra strapless alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraStraplessAlt/maroon.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraStraplessAltOrange
+  name: bra strapless alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraStraplessAlt/orange.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraStraplessAltRed
+  name: bra strapless alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraStraplessAlt/red.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraStraplessAltTeal
+  name: bra strapless alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraStraplessAlt/teal.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraStraplessAltWhite
+  name: bra strapless alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraStraplessAlt/white.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraStraplessAltYellow
+  name: bra strapless alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraStraplessAlt/yellow.rsi
+
+#----------------------BraSwimming------------------------
+
+- type: entity
+  parent: brabase
+  id: LPPBraSwimmingBlack
+  name: bra swimming
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraSwimming/black.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraSwimmingBlue
+  name: bra swimming
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraSwimming/blue.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraSwimmingBrown
+  name: bra swimming
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraSwimming/brown.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraSwimmingGreen
+  name: bra swimming
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraSwimming/green.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraSwimmingGrey
+  name: bra swimming
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraSwimming/grey.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraSwimmingLightpurple
+  name: bra swimming
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraSwimming/lightpurple.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraSwimmingMaroon
+  name: bra swimming
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraSwimming/maroon.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraSwimmingOrange
+  name: bra swimming
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraSwimming/orange.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraSwimmingRed
+  name: bra swimming
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraSwimming/red.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraSwimmingTeal
+  name: bra swimming
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraSwimming/teal.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraSwimmingWhite
+  name: bra swimming
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraSwimming/white.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraSwimmingYellow
+  name: bra swimming
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraSwimming/yellow.rsi
+
+#----------------------BraSwimmingAlt------------------------
+
+- type: entity
+  parent: brabase
+  id: LPPBraSwimmingAltBlack
+  name: bra swimming alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraSwimmingAlt/black.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraSwimmingAltBlue
+  name: bra swimming alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraSwimmingAlt/blue.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraSwimmingAltBrown
+  name: bra swimming alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraSwimmingAlt/brown.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraSwimmingAltGreen
+  name: bra swimming alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraSwimmingAlt/green.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraSwimmingAltGrey
+  name: bra swimming alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraSwimmingAlt/grey.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraSwimmingAltLightpurple
+  name: bra swimming alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraSwimmingAlt/lightpurple.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraSwimmingAltMaroon
+  name: bra swimming alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraSwimmingAlt/maroon.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraSwimmingAltOrange
+  name: bra swimming alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraSwimmingAlt/orange.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraSwimmingAltRed
+  name: bra swimming alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraSwimmingAlt/red.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraSwimmingAltTeal
+  name: bra swimming alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraSwimmingAlt/teal.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraSwimmingAltWhite
+  name: bra swimming alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraSwimmingAlt/white.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraSwimmingAltYellow
+  name: bra swimming alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/BraSwimmingAlt/yellow.rsi
+
+#---------------------------------------------------
+
+- type: entity
+  parent: brabase
+  id: LPPFishnetBody
+  name: fishnet body
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/fishnetbody.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPFishnetGloves
+  name: fishnet gloves
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/fishnetgloves.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPFishnetSleeves
+  name: fishnet sleeves
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/fishnetsleeves.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBraHalterneck
+  name: bra halterneck
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/halterneckbra.rsi
+
+#----------------------SportsBra------------------------
+
+- type: entity
+  parent: brabase
+  id: LPPSportsBraBlack
+  name: sports bra
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/SportsBra/black.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPSportsBraBlue
+  name: sports bra
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/SportsBra/blue.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPSportsBraBrown
+  name: sports bra
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/SportsBra/brown.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPSportsBraGreen
+  name: sports bra
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/SportsBra/green.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPSportsBraGrey
+  name: sports bra
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/SportsBra/grey.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPSportsBraLightpurple
+  name: sports bra
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/SportsBra/lightpurple.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPSportsBraMaroon
+  name: sports bra
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/SportsBra/maroon.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPSportsBraOrange
+  name: sports bra
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/SportsBra/orange.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPSportsBraRed
+  name: sports bra
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/SportsBra/red.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPSportsBraTeal
+  name: sports bra
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/SportsBra/teal.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPSportsBraWhite
+  name: sports bra
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/SportsBra/white.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPSportsBraYellow
+  name: sports bra
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/SportsBra/yellow.rsi
+
+#--------------------SportsBraAlt------------------------
+
+- type: entity
+  parent: brabase
+  id: LPPSportsBraAltBlack
+  name: sports bra alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/SportsBraAlt/black.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPSportsBraAltBlue
+  name: sports bra alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/SportsBraAlt/blue.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPSportsBraAltBrown
+  name: sports bra alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/SportsBraAlt/brown.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPSportsBraAltGreen
+  name: sports bra alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/SportsBraAlt/green.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPSportsBraAltGrey
+  name: sports bra alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/SportsBraAlt/grey.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPSportsBraAltLightpurple
+  name: sports bra alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/SportsBraAlt/lightpurple.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPSportsBraAltMaroon
+  name: sports bra alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/SportsBraAlt/maroon.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPSportsBraAltOrange
+  name: sports bra alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/SportsBraAlt/orange.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPSportsBraAltRed
+  name: sports bra alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/SportsBraAlt/red.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPSportsBraAltTeal
+  name: sports bra alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/SportsBraAlt/teal.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPSportsBraAltWhite
+  name: sports bra alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/SportsBraAlt/white.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPSportsBraAltYellow
+  name: sports bra alt
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/SportsBraAlt/yellow.rsi
+
+#---------------------------------------------------
+
+- type: entity
+  parent: brabase
+  id: LPPStripedBra
+  name: striped bra
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/striped_bra.rsi
+
+#--------------------Tubetop------------------------
+
+- type: entity
+  parent: brabase
+  id: LPPTubetopBlack
+  name: tubetop
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/Tubetop/black.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPTubetopBlue
+  name: tubetop
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/Tubetop/blue.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPTubetopBrown
+  name: tubetop
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/Tubetop/brown.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPTubetopGreen
+  name: tubetop
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/Tubetop/green.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPTubetopGrey
+  name: tubetop
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/Tubetop/grey.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPTubetopLightpurple
+  name: tubetop
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/Tubetop/lightpurple.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPTubetopMaroon
+  name: tubetop
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/Tubetop/maroon.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPTubetopOrange
+  name: tubetop
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/Tubetop/orange.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPTubetopRed
+  name: tubetop
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/Tubetop/red.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPTubetopTeal
+  name: tubetop
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/Tubetop/teal.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPTubetopWhite
+  name: tubetop
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/Tubetop/white.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPTubetopYellow
+  name: tubetop
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/BRA/Tubetop/yellow.rsi
+  
+#---------------------------------------------------
+
+- type: entity
+  parent: brabase
+  id: LPPBodyBra
+  name: Body Bra
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/ahuynahuy/LPPBodyBra1.rsi
+  - type: Clothing
+    sprite: Casha/clothing/ahuynahuy/LPPBodyBra1.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBodyBraCut
+  name: Body Bra Cut
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/ahuynahuy/LPPBodyBra1Cut.rsi
+  - type: Clothing
+    sprite: Casha/clothing/ahuynahuy/LPPBodyBra1Cut.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPLBodyBraCut2
+  name: Body Bra Cut v2
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/ahuynahuy/LPPBodyBra1Cut2.rsi
+  - type: Clothing
+    sprite: Casha/clothing/ahuynahuy/LPPBodyBra1Cut2.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBodyBraCut3
+  name: Body Bra Cut v3
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/ahuynahuy/LPPBodyBraCut3.rsi
+  - type: Clothing
+    sprite: Casha/clothing/ahuynahuy/LPPBodyBraCut3.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBodyBraCut4
+  name: Body Bra Cut v4
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/ahuynahuy/LPPBodyBraCut4.rsi
+  - type: Clothing
+    sprite: Casha/clothing/ahuynahuy/LPPBodyBraCut4.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPBodyBra2
+  name: Body Bra v2
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/ahuynahuy/LPPBodyBra2.rsi
+  - type: Clothing
+    sprite: Casha/clothing/ahuynahuy/LPPBodyBra2.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPCutOutBodyBra2
+  name: Cut Out Body Bra v2
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/ahuynahuy/LPPCutOutBodyBra2.rsi
+  - type: Clothing
+    sprite: Casha/clothing/ahuynahuy/LPPCutOutBodyBra2.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPSwimsuitBodyBra2
+  name: Swimsuit Body Bra v2
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/ahuynahuy/LPPSwimsuitBodyBra2.rsi
+  - type: Clothing
+    sprite: Casha/clothing/ahuynahuy/LPPSwimsuitBodyBra2.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPSwimsuitplusTightsBodyBra2
+  name: Swimsuit+Tights Body Bra v2
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/ahuynahuy/LPPSwimsuitplusTightsBodyBra2.rsi
+  - type: Clothing
+    sprite: Casha/clothing/ahuynahuy/LPPSwimsuitplusTightsBodyBra2.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPTranslucentBodyBra
+  name: Translucent Body Bra
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/ahuynahuy/LPPTranslucentBodyBra.rsi
+  - type: Clothing
+    sprite: Casha/clothing/ahuynahuy/LPPTranslucentBodyBra.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPTranslucentBodyBra2
+  name: Translucent Body Bra v2
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/ahuynahuy/LPPTranslucentBodyBra2.rsi
+  - type: Clothing
+    sprite: Casha/clothing/ahuynahuy/LPPTranslucentBodyBra2.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPCutOutTop
+  name: Cut Out Top
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/ahuynahuy/LPPCutOutTop.rsi
+  - type: Clothing
+    sprite: Casha/clothing/ahuynahuy/LPPCutOutTop.rsi
+
+- type: entity
+  parent: brabase
+  id: LPPCutOutTop2
+  name: Cut Out Top v2
+  description:
+  components:
+  - type: Sprite
+    sprite: Casha/clothing/ahuynahuy/LPPCutOutTop2.rsi
+  - type: Clothing
+    sprite: Casha/clothing/ahuynahuy/LPPCutOutTop2.rsi

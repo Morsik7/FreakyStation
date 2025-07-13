@@ -1,0 +1,36 @@
+{
+    "version": 1,
+    "license": "none",
+    "copyright": "Shrl",
+    "size": {
+      "x": 32,
+      "y": 32
+    },
+    "states": [
+      {
+        "name": "InterdyneLogo1"
+      },
+      {
+        "name": "InterdyneLogo2"
+      },
+      {
+        "name": "InterdyneLogo3"
+      },
+      {
+        "name": "InterdyneLogo4"
+      },
+      {
+        "name": "InterdyneLogo5"
+      },
+      {
+        "name": "InterdyneLogo6"
+      },
+      {
+        "name": "InterdyneLogo7"
+      },
+      {
+        "name": "InterdyneLogo8"
+      },
+      {
+        "name": "InterdyneLogo9"
+      },

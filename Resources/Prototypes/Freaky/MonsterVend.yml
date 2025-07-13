@@ -1,0 +1,59 @@
+- type: vendingMachineInventory
+  id: MonsterVendInventory
+  startingInventory:
+    DrinkMonstreDrinkCan: 6
+    DrinkMonstreAssaultDrinkCan: 3
+    DrinkMonstreWhiteDrinkCan: 4
+    ClothingNeckMonsterPin: 2
+  contrabandInventory:
+    DrinkMonstreDrinkCan: 2
+    ClothingNeckMonsterPin: 3
+  emaggedInventory:
+    DrinkNukieCan: 2
+    DrinkMonstreAssaultDrinkCan: 42
+
+
+- type: entity
+  parent: VendingMachine
+  id: VendingMachineMonster
+  name: МонстрМат
+  description: Лучший в галактике!
+  components:
+  - type: VendingMachine
+    pack: MonsterVendInventory
+    offState: off
+    brokenState: broken
+    normalState: normal-unshaded
+    ejectState: eject-unshaded
+    denyState: deny-unshaded
+  - type: Advertise
+    pack: MonstrAds
+  - type: SpeakOnUIClosed
+    pack: MonstrGoodbyes
+  - type: Sprite
+    sprite: FreakyStation/monstervend.rsi
+    layers:
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: "off"
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+    - state: panel
+      map: ["enum.WiresVisualLayers.MaintenancePanel"]
+  - type: PointLight
+    radius: 1.5
+    energy: 1.6
+    color: "#00FF00"
+    
+    
+- type: localizedDataset
+  id: MonstrAds
+  values:
+    prefix: advertisement-monstrmat-
+    count: 6
+    
+- type: localizedDataset
+  id: MonstrGoodbyes
+  values:
+    prefix: thankyou-monstrmat-
+    count: 3

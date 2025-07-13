@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "license": "APnotinvalid",
+  "copyright": "APnotinvalid",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "icon"
+    },
+    {
+      "name": "equipped-BRA",
+      "directions": 4
+    }
+  ]
+}

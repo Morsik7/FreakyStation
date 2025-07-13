@@ -26,3 +26,11 @@
   alpha: 0.9
   ghostName: Duga
   ghostDescription: Порядок направлений сохранён намеренно. Это метаирония. Он наблюдает сквозь стены, но не туда.
+  
+- type: customGhost
+  id: casha-ghost
+  ckey: Casha
+  sprite: /Textures/Casha/Casha-ghost.rsi
+  alpha: 0.9
+  ghostName: Casha
+  ghostDescription: "Вы чувствуете на себе чей-то взгляд"
