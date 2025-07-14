@@ -135,3 +135,23 @@
       uiWindowPos: 3,0
       strippingWindowPos: 0,5
       displayName: Back
+    - name: bra
+      slotTexture: bra
+      slotFlags: BRA
+      stripTime: 6
+      uiWindowPos: 3,3
+      strippingWindowPos: 3,1
+      displayName: Bra
+      whitelist:
+        tags:
+          - bra
+    - name: pants
+      slotTexture: pants
+      slotFlags: PANTS
+      stripTime: 6
+      uiWindowPos: 3,2
+      strippingWindowPos: 3,2
+      displayName: Pants
+      whitelist:
+        tags:
+          - pants        
