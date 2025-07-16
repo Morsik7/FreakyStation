@@ -1,4 +1,4 @@
-<p align="center"> <img alt="Space Station 14" width="1280" height="300" src="https://i.imgur.com/2nqz4IN.jpeg" /></p>
+<p align="center"> <img alt="Space Station 14" width="1280" height="300" src="" /></p>
 
 Это форк из репозитория Goob Station под названием Reserve Station. Чтобы предотвратить форк RobustToolbox, клиент и сервер загружают пакет «content». Этот контент-пак содержит все необходимое для игры на одном конкретном сервере - это контент-пак для Goob Station.
 
@@ -6,7 +6,7 @@
 
 ## Ссылки
 
-[Дискорд Резерва](https://discord.gg/WXZvqzZ2Fc) | [Дискорд Губов](https://discord.gg/goobstation) | [Дискорд разработки Губа](https://discord.gg/zXk2cyhzPN)
+[Дискорд Фрик Стейшин](https://discord.gg/NMqvMnqNA6) | [Дискорд Губов](https://discord.gg/goobstation) | [Дискорд разработки Губа](https://discord.gg/zXk2cyhzPN) | [Дискорд Резерва](https://discord.gg/WXZvqzZ2Fc)
 
 ## Документация/Вики
 
