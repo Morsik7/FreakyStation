@@ -117,23 +117,23 @@
       uiWindowPos: 3,1
       strippingWindowPos: 1,5
       displayName: Belt
-    - name: bra
+    - name: breast
       slotTexture: bra
-      slotFlags: BRA
+      slotFlags: BREAST
       stripTime: 6
       uiWindowPos: 3,3
       strippingWindowPos: 3,1
-      displayName: Bra
+      displayName: Breast
       whitelist:
         tags:
-          - bra
-    - name: pants
+          - breast
+    - name: underwear
       slotTexture: pants
-      slotFlags: PANTS
+      slotFlags: UNDERWEAR
       stripTime: 6
       uiWindowPos: 3,2
       strippingWindowPos: 3,2
-      displayName: Pants
+      displayName: Underwear
       whitelist:
         tags:
-          - pants        
+          - underwear        
