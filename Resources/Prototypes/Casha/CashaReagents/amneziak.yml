@@ -11,7 +11,7 @@
 
 - type: reagent
   id: Afrodeziak
-  name: Афродезиак
+  name: Афродизиак
   group: Narcotics
   desc: Сильно возбуждает любого, кто его выпьет
   physicalDesc: reagent-physical-desc-powdery
@@ -33,8 +33,8 @@
 - type: entity
   parent: [DrinkBottleVisualsAll, DrinkBottleGlassBaseFull]
   id: AfrodeziakBottleFull
-  name: бутылочка афродезиака
-  description: То что нужно, чтобы кого то возбудить.
+  name: бутылочка афродизиака
+  description: То что нужно, чтобы кого то возбудить. Well gbm...
   components:
   - type: SolutionContainerManager
     solutions:
@@ -43,7 +43,7 @@
         - ReagentId: Afrodeziak
           Quantity: 100
   - type: Label
-    currentLabel: Афродезиак
+    currentLabel: Афродизиак
   - type: Sprite
     sprite: Casha/reagent/afrodeziak.rsi
   - type: Sealable
