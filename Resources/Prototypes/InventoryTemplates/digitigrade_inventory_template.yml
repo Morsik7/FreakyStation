@@ -137,23 +137,3 @@
       uiWindowPos: 3,0
       strippingWindowPos: 0,5
       displayName: Back
-    - name: breast
-      slotTexture: bra
-      slotFlags: BREAST
-      stripTime: 6
-      uiWindowPos: 3,3
-      strippingWindowPos: 3,1
-      displayName: Breast
-      whitelist:
-        tags:
-          - breast
-    - name: underwear
-      slotTexture: pants
-      slotFlags: UNDERWEAR
-      stripTime: 6
-      uiWindowPos: 3,2
-      strippingWindowPos: 3,2
-      displayName: Underwear
-      whitelist:
-        tags:
-          - underwear        
