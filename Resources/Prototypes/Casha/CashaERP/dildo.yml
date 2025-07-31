@@ -5,7 +5,7 @@
   description: Розовый гладкий дилдо
   components:
   - type: Sprite
-    sprite: Casha/clothing/ANAL/dildak/dildopink.rsi
+    sprite: Casha\clothing\ANAL\dildak\dildopink.rsi
     state: icon
   - type: MeleeWeapon
     damage:
