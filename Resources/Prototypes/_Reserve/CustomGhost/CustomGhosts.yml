@@ -34,3 +34,11 @@
   alpha: 0.9
   ghostName: Casha
   ghostDescription: "Вы чувствуете на себе чей-то взгляд"
+
+- type: customGhost
+  id: egorql-ghost
+  ckey: Egorql
+  sprite: /Textures/_FreakStation/ghost_lava.rsi
+  alpha: 0.92
+  ghostName: Egorql
+  ghostDescription: "Черемша"

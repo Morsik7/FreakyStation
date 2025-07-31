@@ -13,13 +13,13 @@
   guides: [ Devil ]
   requirements:
   - !type:OverallPlaytimeRequirement
-    time: 108000 # 30h
+    time: 18000 # 5h
   - !type:DepartmentTimeRequirement
     department: Command
-    time: 18000 # 5 hours
+    time: 9000 # 2.5 hours
   - !type:RoleTimeRequirement
     role: JobLawyer
-    time: 3600 # 1 Hour
+    time: 1800 # 0.5 Hour
 
 - type: startingGear
   id: DevilStartingGear
