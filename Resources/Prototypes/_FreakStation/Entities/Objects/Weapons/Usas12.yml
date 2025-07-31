@@ -6,7 +6,7 @@
   description: Надёжный, автоматический дробовик. Первый прототип USAS 12 был разработан в 1980-ых годах нашей эры.
   components:
   - type: Sprite
-    sprite: FreakyStation/Guns_sec/USAS12/USAS12.rsi
+    sprite: _FreakStation/Guns_sec/USAS12/USAS12.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -15,7 +15,7 @@
   - type: Item
     size: Large
   - type: Clothing
-    sprite: FreakyStation/Guns_sec/USAS12/USAS12.rsi
+    sprite: _FreakStation/Guns_sec/USAS12/USAS12.rsi
     quickEquip: false
     slots:
     - Back
@@ -104,7 +104,7 @@
     proto: ShellShotgun
     capacity: 12
   - type: Sprite
-    sprite: FreakyStation/Guns_sec/USAS12/USAS12mag.rsi
+    sprite: _FreakStation/Guns_sec/USAS12/USAS12mag.rsi
     layers:
     - state: pellets
       map: ["enum.GunVisualLayers.Base"]
@@ -120,7 +120,7 @@
   parent: BaseMagazineUSAS12
   components:
   - type: Sprite
-    sprite: FreakyStation/Guns_sec/USAS12/USAS12mag.rsi
+    sprite: _FreakStation/Guns_sec/USAS12/USAS12mag.rsi
     layers:
     - state: pellets
       map: ["enum.GunVisualLayers.Base"]
@@ -141,7 +141,7 @@
     proto: ShellShotgunBeanbag
     capacity: 12
   - type: Sprite
-    sprite: FreakyStation/Guns_sec/USAS12/USAS12mag.rsi
+    sprite: _FreakStation/Guns_sec/USAS12/USAS12mag.rsi
     layers:
     - state: pellets
       map: ["enum.GunVisualLayers.Base"]
@@ -160,7 +160,7 @@
     proto: ShellShotgunSlug
     capacity: 12
   - type: Sprite
-    sprite: FreakyStation/Guns_sec/USAS12/USAS12mag.rsi
+    sprite: _FreakStation/Guns_sec/USAS12/USAS12mag.rsi
     layers:
     - state: pellets
       map: ["enum.GunVisualLayers.Base"]
@@ -179,7 +179,7 @@
     proto: ShellShotgunIncendiary
     capacity: 12
   - type: Sprite
-    sprite: FreakyStation/Guns_sec/USAS12/USAS12mag.rsi
+    sprite: _FreakStation/Guns_sec/USAS12/USAS12mag.rsi
     layers:
     - state: pellets
       map: ["enum.GunVisualLayers.Base"]
