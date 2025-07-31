@@ -53,6 +53,22 @@
   technologyPrerequisites:
   - DraconicMunitions
 
+- type: technology
+  id: RestraintTechnology
+  name: research-technology-restraint
+  icon:
+    sprite: _Goobstation/Clothing/Mask/securemuzzle.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 1
+  cost: 3000
+  recipeUnlocks:
+  - ClothingMaskMuzzleSecure
+  - ClothingMaskMuzzleShock
+  position: 1,1
+  technologyPrerequisites:
+  - SalvageWeapons
+
 # Tier 2
 - type: technology
   id: WeaponLaserCellSMGTech
@@ -115,6 +131,21 @@
   position: 6,1
 
 # Tier 3
+
+- type: technology
+  id: WeaponToxGun
+  name: research-technology-toxic-gun
+  icon:
+    sprite: _Goobstation/Objects/Weapons/Guns/Battery/toxgun.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 3
+  cost: 15000
+  recipeUnlocks:
+  - WeaponToxGun
+  position: 6,2
+  technologyPrerequisites:
+  - EnergyBoltBasedWeaponry
 
 - type: technology
   id: WeaponLaserCellSniperTech
