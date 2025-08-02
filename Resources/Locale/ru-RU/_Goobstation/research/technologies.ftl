@@ -19,3 +19,4 @@ research-technology-mag-fed-pistol = Пистолеты на энергетич�
 research-technology-mag-fed-smg = Пистолеты-пулеметы на энергетических элементах
 research-technology-mag-fed-sniper = Снайперы энергетических ячеек
 research-technology-mag-fed-lmg = Легкие пулеметы на энергетических элементах
+research-technology-toxic-gun = Ядовитое вооружение
