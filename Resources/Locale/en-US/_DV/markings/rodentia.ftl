@@ -1,6 +1,10 @@
 # SPDX-FileCopyrightText: 2024 Piras314 <p1r4s@proton.me>
 # SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Aiden <aiden@djkraz.com>
+<<<<<<< HEAD
+=======
+# SPDX-FileCopyrightText: 2025 Plyush <121322002+Plyushsune@users.noreply.github.com>
+>>>>>>> 2d4cc7b23fc57c13985144af3d72dec23366f371
 # SPDX-FileCopyrightText: 2025 deltanedas <39013340+deltanedas@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 deltanedas <@deltanedas:kde.org>
 #
@@ -20,6 +24,11 @@ marking-RodentiaHeadRound-round = Pattern
 
 ## ears
 
+<<<<<<< HEAD
+=======
+marking-RodentiaHeadTopEarDefault = Rodentia Ears
+
+>>>>>>> 2d4cc7b23fc57c13985144af3d72dec23366f371
 marking-RodentiaHeadTopEarBat = Ears - Bat
 marking-RodentiaHeadTopEarBat-bat = Outer ear
 
@@ -114,6 +123,11 @@ marking-RodentiaCheeksWhiskers-whiskers = Whiskers
 
 ## tail
 
+<<<<<<< HEAD
+=======
+marking-RodentiaTailDefault = Rodentia Tail
+
+>>>>>>> 2d4cc7b23fc57c13985144af3d72dec23366f371
 marking-RodentiaTailBeaver = Tail - Beaver
 marking-RodentiaTailBeaver-beaver = Tail
 

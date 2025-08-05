@@ -1563,6 +1563,13 @@
   description: flavor-complex-bacchus-blessing
 
 - type: flavor
+<<<<<<< HEAD
   id: brepsi
   flavorType: Complex
   description: flavor-complex-brepsi
+=======
+  id: trashy
+  flavorType: Base
+  description: flavor-base-trashy
+
+>>>>>>> 2d4cc7b23fc57c13985144af3d72dec23366f371

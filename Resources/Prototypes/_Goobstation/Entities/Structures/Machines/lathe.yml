@@ -5,8 +5,11 @@
 # SPDX-FileCopyrightText: 2025 BombasterDS2 <shvalovdenis.workmail@gmail.com>
 # SPDX-FileCopyrightText: 2025 GoobBot <uristmchands@proton.me>
 # SPDX-FileCopyrightText: 2025 IrisTheAmped <iristheamped@gmail.com>
+# SPDX-FileCopyrightText: 2025 Marty <martynashagriefer@gmail.com>
+# SPDX-FileCopyrightText: 2025 NotActuallyMarty <martynashagriefer@gmail.com>
 # SPDX-FileCopyrightText: 2025 Rouden <149893554+Roudenn@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Roudenn <romabond091@gmail.com>
+# SPDX-FileCopyrightText: 2025 SomethingUnbearable <mewatcher102@gmail.com>
 # SPDX-FileCopyrightText: 2025 Speebro <100388782+Speebr0@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Speebro <speebro@notreal.com>
 # SPDX-FileCopyrightText: 2025 Ted Lukin <66275205+pheenty@users.noreply.github.com>
@@ -53,7 +56,9 @@
     - LightsStatic
     - PowerCellsStatic
     - ElectronicsStatic
+    - MiscSignallersStatic
     - NailgunStatic
+    - NailsStatic
     dynamicPacks:
     - AdvancedTools
     - AtmosTools
@@ -115,6 +120,7 @@
     - CablesStatic
     - PowerCellsStatic
     - MiningToolsStatic
+    - MiscSignallersStatic
     - CargoStatic
     dynamicPacks:
     - AdvancedTools
@@ -190,6 +196,7 @@
     - ScienceBoardsStatic
     - ScienceExplosives # Goobstation - Roundstart Grenade Tech
     - GrenadeTriggersStatic # Goobstation - Roundstart Grenade Tech
+    - MiscSignallersStatic
     dynamicPacks:
     - AdvancedTools
     - ScienceEquipment
@@ -213,6 +220,9 @@
     - ExperimentalScienceGoob
     - MechBoardsScience
     - Pinpointers
+    # Einstein Engines Packs
+    - Translators
+    - TranslatorImplanters
   - type: EmagLatheRecipes
     emagDynamicPacks:
     - MechBoardsSecurity
@@ -271,7 +281,13 @@
     - ServiceBoards
     - SharedBoards
     - CameraBoards
+<<<<<<< HEAD
     - PlantAnalyzer #Reserve edit
+=======
+    - ServiceTools
+    # Einstein Engines Packs
+    - Translators
+>>>>>>> 2d4cc7b23fc57c13985144af3d72dec23366f371
   - type: EmagLatheRecipes
     emagStaticPacks:
     - ServiceBoardsEvilStatic # Donk Co microwave circiutboard

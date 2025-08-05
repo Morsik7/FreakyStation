@@ -6,9 +6,13 @@
 // SPDX-FileCopyrightText: 2025 coderabbitai[bot] <136622811+coderabbitai[bot]@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 gluesniffler <159397573+gluesniffler@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 gluesniffler <linebarrelerenthusiast@gmail.com>
+<<<<<<< HEAD
 // SPDX-FileCopyrightText: 2025 sa1nt7331 <202271576+sa1nt7331@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 sa1nt7331 <havenz@yandex.ru>
 // SPDX-FileCopyrightText: 2025 sa1nt7331 <sa1nt7331@zaza.kyr>
+=======
+// SPDX-FileCopyrightText: 2025 loltart <lo1tartyt@gmail.com>
+>>>>>>> 2d4cc7b23fc57c13985144af3d72dec23366f371
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
@@ -153,7 +157,7 @@ public sealed partial class DevilContractSystem : EntitySystem
             return;
 
         // Death to sec powergame
-        if (HasComp<MindShieldComponent>(args.Signer))
+        if (HasComp<MindShieldComponent>(args.Signer) && !HasComp<DevilComponent>(args.Signer))
         {
             var mindshieldedPopup = Loc.GetString("devil-contract-mind-shielded-failed");
             _popupSystem.PopupEntity(mindshieldedPopup, args.Signer, args.Signer, PopupType.MediumCaution);

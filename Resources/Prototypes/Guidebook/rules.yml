@@ -9,6 +9,7 @@
 # SPDX-FileCopyrightText: 2025 CerberusWolfie <wb.johnb.willis@gmail.com>
 # SPDX-FileCopyrightText: 2025 GoobBot <uristmchands@proton.me>
 # SPDX-FileCopyrightText: 2025 GrownSamoyedDog <61863648+GrownSamoyedDog@users.noreply.github.com>
+<<<<<<< HEAD
 # SPDX-FileCopyrightText: 2025 ReserveBot <211949879+ReserveBot@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Svarshik <96281939+lexaSvarshik@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 echotry <48294642+echotry-ss14@users.noreply.github.com>
@@ -17,6 +18,10 @@
 # SPDX-FileCopyrightText: 2025 CerberusWolfie <wb.johnb.willis@gmail.com>
 # SPDX-FileCopyrightText: 2025 GoobBot <uristmchands@proton.me>
 # SPDX-FileCopyrightText: 2025 GrownSamoyedDog <61863648+GrownSamoyedDog@users.noreply.github.com>
+=======
+# SPDX-FileCopyrightText: 2025 John Willis <143434770+CerberusWolfie@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Rouge2t7 <sarahoneill132@hotmail.com>
+>>>>>>> 2d4cc7b23fc57c13985144af3d72dec23366f371
 # SPDX-FileCopyrightText: 2025 nikthechampiongr <32041239+nikthechampiongr@users.noreply.github.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
@@ -51,6 +56,7 @@
   priority: 30
   text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC0.xml"
   children:
+  - Admins
   - RuleC1
   - RuleC2
   - RuleC3
@@ -63,55 +69,60 @@
   - RuleC10
   - RuleC11
   - RuleC12
-  - RuleC13
-  - RuleC14
+
+- type: guideEntry
+  id: Admins
+  name: guide-entry-rules-c0
+  ruleEntry: true
+  priority: 1
+  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC0Admins.xml"
 
 - type: guideEntry
   id: RuleC1
   abstract: true #Reserve guidebook
   name: guide-entry-rules-c1
   ruleEntry: true
-  priority: 1
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC1Admins.xml"
+  priority: 2
+  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC1DMAD.xml"
 
 - type: guideEntry
   id: RuleC2
   abstract: true #Reserve guidebook
   name: guide-entry-rules-c2
   ruleEntry: true
-  priority: 2
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC2DBAD.xml"
+  priority: 3
+  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC2ICKOCK.xml"
 
 - type: guideEntry
   id: RuleC3
   abstract: true #Reserve guidebook
   name: guide-entry-rules-c3
   ruleEntry: true
-  priority: 3
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC3NoHate.xml"
+  priority: 4
+  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC3Roleplay.xml"
 
 - type: guideEntry
   id: RuleC4
   abstract: true #Reserve guidebook
   name: guide-entry-rules-c4
   ruleEntry: true
-  priority: 4
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC4NoERP.xml"
+  priority: 5
+  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC4Antags.xml"
 
 - type: guideEntry
   id: RuleC5
   abstract: true #Reserve guidebook
   name: guide-entry-rules-c5
   ruleEntry: true
-  priority: 5
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC5Metacomms.xml"
+  priority: 6
+  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC5Vitals.xml"
 
 - type: guideEntry
   id: RuleC6
   abstract: true #Reserve guidebook
   name: guide-entry-rules-c6
   ruleEntry: true
-  priority: 6
+  priority: 7
   text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC6BanEvasion.xml"
 
 - type: guideEntry
@@ -119,7 +130,7 @@
   abstract: true #Reserve guidebook
   name: guide-entry-rules-c7
   ruleEntry: true
-  priority: 7
+  priority: 8
   text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC7EnglishOnly.xml"
 
 - type: guideEntry
@@ -127,38 +138,39 @@
   abstract: true #Reserve guidebook
   name: guide-entry-rules-c8
   ruleEntry: true
-  priority: 8
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC8Exploits.xml"
+  priority: 9
+  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC8ERP.xml"
 
 - type: guideEntry
   id: RuleC9
   abstract: true #Reserve guidebook
   name: guide-entry-rules-c9
   ruleEntry: true
-  priority: 9
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC9Multikey.xml"
+  priority: 10
+  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC9Age.xml"
 
 - type: guideEntry
   id: RuleC10
   abstract: true #Reserve guidebook
   name: guide-entry-rules-c10
   ruleEntry: true
-  priority: 10
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC10AHelp.xml"
+  priority: 11
+  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC10GitGud.xml"
 
 - type: guideEntry
   id: RuleC11
   abstract: true #Reserve guidebook
   name: guide-entry-rules-c11
   ruleEntry: true
-  priority: 11
-  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC11AhelpThreats.xml"
+  priority: 12
+  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC11Bigotry.xml"
 
 - type: guideEntry
   id: RuleC12
   abstract: true #Reserve guidebook
   name: guide-entry-rules-c12
   ruleEntry: true
+<<<<<<< HEAD
   priority: 12
   text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC12MinAge.xml"
 
@@ -177,6 +189,10 @@
   ruleEntry: true
   priority: 14
   text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC14ICinOOC.xml"
+=======
+  priority: 13
+  text: "/ServerInfo/Guidebook/ServerRules/CoreRules/RuleC12CharacterNames.xml"
+>>>>>>> 2d4cc7b23fc57c13985144af3d72dec23366f371
 
 - type: guideEntry
   id: RoleplayRules
@@ -200,12 +216,6 @@
   - RuleR12
   - RuleR13
   - RuleR14
-  - RuleR15
-  - RuleR16
-  - RuleR17
-  - RuleR18
-  - RuleR19
-  - RuleR20
 
 - type: guideEntry
   id: RuleR1
@@ -213,7 +223,7 @@
   name: guide-entry-rules-r1
   ruleEntry: true
   priority: 1
-  text: "/ServerInfo/Guidebook/ServerRules/RoleplayRules/RuleR1Silicons.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/RoleplayRules/RuleR1Roleplay.xml"
 
 - type: guideEntry
   id: RuleR2
@@ -221,7 +231,7 @@
   name: guide-entry-rules-r2
   ruleEntry: true
   priority: 2
-  text: "/ServerInfo/Guidebook/ServerRules/RoleplayRules/RuleR2Familiars.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/RoleplayRules/RuleR2Escalation.xml"
 
 - type: guideEntry
   id: RuleR3
@@ -229,7 +239,7 @@
   name: guide-entry-rules-r3
   ruleEntry: true
   priority: 3
-  text: "/ServerInfo/Guidebook/ServerRules/RoleplayRules/RuleR3NormalRP.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/RoleplayRules/RuleR3TheChain.xml"
 
 - type: guideEntry
   id: RuleR4
@@ -245,7 +255,7 @@
   name: guide-entry-rules-r5
   ruleEntry: true
   priority: 5
-  text: "/ServerInfo/Guidebook/ServerRules/RoleplayRules/RuleR5Arrivals.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/RoleplayRules/RuleR5Vigilante.xml"
 
 - type: guideEntry
   id: RuleR6
@@ -253,7 +263,7 @@
   name: guide-entry-rules-r6
   ruleEntry: true
   priority: 6
-  text: "/ServerInfo/Guidebook/ServerRules/RoleplayRules/RuleR6SelfAntag.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/RoleplayRules/RuleR6Antag.xml"
 
 - type: guideEntry
   id: RuleR7
@@ -261,7 +271,7 @@
   name: guide-entry-rules-r7
   ruleEntry: true
   priority: 7
-  text: "/ServerInfo/Guidebook/ServerRules/RoleplayRules/RuleR7RoundStalling.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/RoleplayRules/RuleR7Criminals.xml"
 
 - type: guideEntry
   id: RuleR8
@@ -269,7 +279,7 @@
   name: guide-entry-rules-r8
   ruleEntry: true
   priority: 8
-  text: "/ServerInfo/Guidebook/ServerRules/RoleplayRules/RuleR8NoFriendlyAntag.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/RoleplayRules/RuleR8NoPowerGame.xml"
 
 - type: guideEntry
   id: RuleR9
@@ -277,7 +287,7 @@
   name: guide-entry-rules-r9
   ruleEntry: true
   priority: 9
-  text: "/ServerInfo/Guidebook/ServerRules/RoleplayRules/RuleR9MassSabotage.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/RoleplayRules/RuleR9Believable.xml"
 
 - type: guideEntry
   id: RuleR10
@@ -285,7 +295,7 @@
   name: guide-entry-rules-r10
   ruleEntry: true
   priority: 10
-  text: "/ServerInfo/Guidebook/ServerRules/RoleplayRules/RuleR10Subordination.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/RoleplayRules/RuleR10TheLane.xml"
 
 - type: guideEntry
   id: RuleR11
@@ -293,6 +303,7 @@
   name: guide-entry-rules-r11
   ruleEntry: true
   priority: 11
+<<<<<<< HEAD
   text: "/ServerInfo/Guidebook/ServerRules/RoleplayRules/RuleR11Escalation.xml"
   children:
   - RuleR11-1
@@ -313,6 +324,9 @@
   ruleEntry: true
   priority: 10
   text: "/ServerInfo/Guidebook/ServerRules/RoleplayRules/RuleR11-2ConflictTypes.xml"
+=======
+  text: "/ServerInfo/Guidebook/ServerRules/RoleplayRules/RuleR11Repetition.xml"
+>>>>>>> 2d4cc7b23fc57c13985144af3d72dec23366f371
 
 - type: guideEntry
   id: RuleR12
@@ -320,7 +334,7 @@
   name: guide-entry-rules-r12
   ruleEntry: true
   priority: 12
-  text: "/ServerInfo/Guidebook/ServerRules/RoleplayRules/RuleR12RoleAbandonment.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/RoleplayRules/RuleR12Blueshield.xml"
 
 - type: guideEntry
   id: RuleR13
@@ -328,7 +342,7 @@
   name: guide-entry-rules-r13
   ruleEntry: true
   priority: 13
-  text: "/ServerInfo/Guidebook/ServerRules/RoleplayRules/RuleR13PerformRole.xml"
+  text: "/ServerInfo/Guidebook/ServerRules/RoleplayRules/RuleR13NTR.xml"
 
 - type: guideEntry
   id: RuleR14
@@ -336,6 +350,7 @@
   name: guide-entry-rules-r14
   ruleEntry: true
   priority: 14
+<<<<<<< HEAD
   text: "/ServerInfo/Guidebook/ServerRules/RoleplayRules/RuleR14SecComStandard.xml"
 
 - type: guideEntry
@@ -380,6 +395,9 @@
   name: guide-entry-rules-r20
   priority: 20
   text: "/ServerInfo/Guidebook/ServerRules/RoleplayRules/RuleR20NewLifeRule.xml"
+=======
+  text: "/ServerInfo/Guidebook/ServerRules/RoleplayRules/RuleR14NewLifeRule.xml"
+>>>>>>> 2d4cc7b23fc57c13985144af3d72dec23366f371
 
 - type: guideEntry
   id: SiliconRules

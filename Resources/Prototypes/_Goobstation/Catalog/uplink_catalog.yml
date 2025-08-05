@@ -27,6 +27,7 @@
 # SPDX-FileCopyrightText: 2025 GoobBot <uristmchands@proton.me>
 # SPDX-FileCopyrightText: 2025 Ilya246 <57039557+Ilya246@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Ilya246 <ilyukarno@gmail.com>
+# SPDX-FileCopyrightText: 2025 IrisTheAmped <iristheamped@gmail.com>
 # SPDX-FileCopyrightText: 2025 Lincoln McQueen <lincoln.mcqueen@gmail.com>
 # SPDX-FileCopyrightText: 2025 LuciferEOS <stepanteliatnik2022@gmail.com>
 # SPDX-FileCopyrightText: 2025 LuciferMkshelter <154002422+LuciferEOS@users.noreply.github.com>
@@ -34,16 +35,26 @@
 # SPDX-FileCopyrightText: 2025 NazrinNya <137837419+NazrinNya@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Piras314 <p1r4s@proton.me>
 # SPDX-FileCopyrightText: 2025 PunishedJoe <PunishedJoeseph@proton.me>
+<<<<<<< HEAD
 # SPDX-FileCopyrightText: 2025 ReserveBot <211949879+ReserveBot@users.noreply.github.com>
+=======
+# SPDX-FileCopyrightText: 2025 Rouden <149893554+Roudenn@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Roudenn <romabond091@gmail.com>
+>>>>>>> 2d4cc7b23fc57c13985144af3d72dec23366f371
 # SPDX-FileCopyrightText: 2025 SX-7 <92227810+SX-7@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Scruq445 <storchdamien@gmail.com>
 # SPDX-FileCopyrightText: 2025 Shy Bandit <92641277+rotundfan@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Solstice <solsticeofthewinter@gmail.com>
 # SPDX-FileCopyrightText: 2025 SolsticeOfTheWinter <solsticeofthewinter@gmail.com>
+<<<<<<< HEAD
 # SPDX-FileCopyrightText: 2025 Svarshik <96281939+lexaSvarshik@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Svarshik <lexasvarshik666@gmail.com>
+=======
+>>>>>>> 2d4cc7b23fc57c13985144af3d72dec23366f371
 # SPDX-FileCopyrightText: 2025 Ted Lukin <66275205+pheenty@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Theodore Lukin <66275205+pheenty@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 Tim <timfalken@hotmail.com>
+# SPDX-FileCopyrightText: 2025 Timfa <timfalken@hotmail.com>
 # SPDX-FileCopyrightText: 2025 TurboTracker <130304754+TurboTrackerss14@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Weide <64257676+Lyacs@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 absurd-shaman <165011607+absurd-shaman@users.noreply.github.com>
@@ -54,7 +65,11 @@
 # SPDX-FileCopyrightText: 2025 fishbait <gnesse@gmail.com>
 # SPDX-FileCopyrightText: 2025 gluesniffler <159397573+gluesniffler@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 gus <august.eymann@gmail.com>
+<<<<<<< HEAD
 # SPDX-FileCopyrightText: 2025 nazrin <tikufaev@outlook.com>
+=======
+# SPDX-FileCopyrightText: 2025 loltart <lo1tartyt@gmail.com>
+>>>>>>> 2d4cc7b23fc57c13985144af3d72dec23366f371
 # SPDX-FileCopyrightText: 2025 pheenty <fedorlukin2006@gmail.com>
 # SPDX-FileCopyrightText: 2025 sa1nt7331 <havenz@yandex.ru>
 # SPDX-FileCopyrightText: 2025 terminatorbo <kovalevb059@gmail.com>
@@ -290,19 +305,6 @@
       tags:
       - NukeOpsUplink
 
-- type: listing
-  id: UplinkTelecrystalMiner
-  name: uplink-tcminer-name
-  description: uplink-tcminer-desc
-  productEntity: TCminerFlatpack
-  cost:
-    Telecrystal: 100
-  categories:
-    - UplinkDisruption
-  conditions:
-  - !type:ListingLimitedStockCondition
-    stock: 1
-
 # Weaponry
 
 # - type: listing
@@ -346,13 +348,13 @@
   - UplinkWeaponry
 
 - type: listing
-  id: UplinkM90
-  name: uplink-m90-name
-  description: uplink-m90-desc
-  icon: { sprite: /Textures/_Goobstation/Objects/Weapons/Guns/Rifles/m90.rsi, state: icon }
-  productEntity: WeaponRifleM90
+  id: UplinkSyndicateDisabler
+  name: uplink-syndicate-disabler-name
+  description: uplink-syndicate-disabler-desc
+  icon: { sprite: _EinsteinEngines/Objects/Weapons/Guns/Battery/syndicate-disabler.rsi, state: base }
+  productEntity: WeaponDisablerSyndicate
   cost:
-    Telecrystal: 50
+    Telecrystal: 20
   categories:
   - UplinkWeaponry
 
@@ -450,6 +452,11 @@
     Telecrystal: 38 # This + esword = 75 TC
   categories:
   - UplinkWeaponry
+  conditions:
+  - !type:StoreWhitelistCondition
+    blacklist:
+      tags:
+      - NukeOpsUplink
 
 - type: listing
   id: UplinkBulkMosin
@@ -621,6 +628,22 @@
     whitelist:
     - Clown
 
+- type: listing
+  id: UplinkHisGrace
+  name: uplink-his-grace-name
+  description: uplink-his-grace-desc
+  icon: { sprite: /Textures/_Goobstation/Objects/Weapons/Melee/hisgrace.rsi, state: icon }
+  productEntity: HisGrace
+  cost:
+    Telecrystal: 100
+  categories:
+  - UplinkJob
+  conditions:
+  - !type:BuyerJobCondition
+    whitelist:
+    - Chaplain
+  saleLimit: 1
+
 
 - type: listing
   id: UplinkLubeGrenade
@@ -778,6 +801,23 @@
   categories:
   - UplinkChemicals
 
+#- type: listing Removed pending rework™
+#  id: UplinkMedicalBeamGunSyndicate
+#  name: uplink-medical-beam-gun-name
+#  description: uplink-medical-beam-gun-desc
+#  productEntity: MedicalBeamGunSyndicateBattery
+#  cost:
+#    Telecrystal: 100
+#  categories:
+#  - UplinkChemicals
+#  conditions:
+#  - !type:StoreWhitelistCondition
+#    whitelist:
+#      tags:
+#      - NukeOpsMedicUplink
+#  - !type:ListingLimitedStockCondition
+#    stock: 1
+
 - type: listing
   id: UplinkCombatMedkitPills
   name: uplink-combat-medkit-pills-name
@@ -862,6 +902,17 @@
     Telecrystal: 40
   categories:
     - UplinkImplants
+
+- type: listing
+  id: UplinkBinaryImplant
+  name: uplink-binary-implant-name
+  description: uplink-binary-implant-desc
+  icon: { sprite: /Textures/Objects/Devices/encryption_keys.rsi, state: ai_label }
+  productEntity: BinaryImplanter
+  cost:
+    Telecrystal: 5 # goob
+  categories:
+  - UplinkImplants
 
 - type: listing
   id: UplinkAutosurgeonRightMantisBlade
@@ -1061,17 +1112,6 @@
 
 # 弾薬
 - type: listing
-  id: UplinkRifleMag
-  name: uplink-rifle-mag-name
-  description: uplink-rifle-mag-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Rifle/rifle_mag.rsi, state: red }
-  productEntity: MagazineRifle
-  cost:
-    Telecrystal: 5
-  categories:
-  - UplinkAmmo
-
-- type: listing
   id: UplinkCaselessRifleMag
   name: uplink-rifle-caseless-mag-name
   description: uplink-rifle-caseless-mag-desc
@@ -1251,6 +1291,32 @@
       tags:
       - NukeOpsUplink
       - ContravendUplink
+
+- type: listing
+  id: UplinkCQCManualChef
+  name: uplink-cqc-name
+  description: uplink-cqc-desc
+  productEntity: CQCManual
+  cost:
+    Telecrystal: 60
+  categories:
+  - UplinkJob
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+  - !type:BuyerJobCondition
+    whitelist:
+    - Chef
+
+- type: listing
+  id: UplinkCapoeiraManual
+  name: uplink-capoeira-name
+  description: uplink-capoeira-desc
+  productEntity: CapoeiraManual
+  cost:
+    Telecrystal: 35
+  categories:
+  - UplinkWeaponry
 
 - type: listing
   id: UplinkMysteriousScroll

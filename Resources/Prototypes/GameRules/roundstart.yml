@@ -111,6 +111,7 @@
 # SPDX-FileCopyrightText: 2025 GoobBot <uristmchands@proton.me>
 # SPDX-FileCopyrightText: 2025 Ilya246 <57039557+Ilya246@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Ilya246 <ilyukarno@gmail.com>
+# SPDX-FileCopyrightText: 2025 IrisTheAmped <iristheamped@gmail.com>
 # SPDX-FileCopyrightText: 2025 MilenVolf <63782763+MilenVolf@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 PunishedJoe <PunishedJoeseph@proton.me>
 # SPDX-FileCopyrightText: 2025 ReserveBot <211949879+ReserveBot@users.noreply.github.com>
@@ -120,7 +121,11 @@
 # SPDX-FileCopyrightText: 2025 SlamBamActionman <83650252+SlamBamActionman@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 Solstice <solsticeofthewinter@gmail.com>
 # SPDX-FileCopyrightText: 2025 SolsticeOfTheWinter <solsticeofthewinter@gmail.com>
+<<<<<<< HEAD
 # SPDX-FileCopyrightText: 2025 Svarshik <96281939+lexaSvarshik@users.noreply.github.com>
+=======
+# SPDX-FileCopyrightText: 2025 Southbridge <7013162+southbridge-fur@users.noreply.github.com>
+>>>>>>> 2d4cc7b23fc57c13985144af3d72dec23366f371
 # SPDX-FileCopyrightText: 2025 Tayrtahn <tayrtahn@gmail.com>
 # SPDX-FileCopyrightText: 2025 Ted Lukin <66275205+pheenty@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 TheBorzoiMustConsume <197824988+TheBorzoiMustConsume@users.noreply.github.com>
@@ -129,7 +134,12 @@
 # SPDX-FileCopyrightText: 2025 echotry <xippl1@mail.ru>
 # SPDX-FileCopyrightText: 2025 gus <august.eymann@gmail.com>
 # SPDX-FileCopyrightText: 2025 keronshb <54602815+keronshb@users.noreply.github.com>
+<<<<<<< HEAD
 # SPDX-FileCopyrightText: 2025 nazrin <tikufaev@outlook.com>
+=======
+# SPDX-FileCopyrightText: 2025 loltart <159829224+loltart@users.noreply.github.com>
+# SPDX-FileCopyrightText: 2025 loltart <lo1tartyt@gmail.com>
+>>>>>>> 2d4cc7b23fc57c13985144af3d72dec23366f371
 # SPDX-FileCopyrightText: 2025 pheenty <fedorlukin2006@gmail.com>
 # SPDX-FileCopyrightText: 2025 saizenlow <saizen.low@gmail.com>
 # SPDX-FileCopyrightText: 2025 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
@@ -354,6 +364,9 @@
     selectionTime: PostPlayerSpawn # Goobstation
     definitions:
     - prefRoles: [ Traitor ]
+      blacklist: # Goobstation
+        components:
+        - CommandStaff
       mindRoles:
       - MindRoleTraitorReinforcement
 
@@ -371,6 +384,7 @@
       playerRatio: 10
       blacklist:
         components:
+        - CommandStaff # Goobstation
         - AntagImmune
         - Changeling # Goobstation
       lateJoinAdditional: true
@@ -391,6 +405,10 @@
     - prefRoles: [ HeadRev ]
       max: 3
       playerRatio: 15
+      blacklist:
+        components:
+        - CommandStaff # Goobstation
+      jobBlacklist: [ Mime ] # Goobstation
       briefing:
         text: head-rev-role-greeting-consent-only # Reserve-ConsentRev
         color: CornflowerBlue
@@ -487,9 +505,10 @@
     - prefRoles: [ InitialInfected ]
       max: 4
       playerRatio: 15
-      jobBlacklist: [ Chaplain ]
+      jobBlacklist: [ Chaplain ] # Goobstation
       blacklist:
         components:
+        - CommandStaff # Goobstation
         - ZombieImmune
       briefing:
         text: zombie-patientzero-role-greeting

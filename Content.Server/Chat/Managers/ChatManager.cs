@@ -164,11 +164,7 @@
 // SPDX-FileCopyrightText: 2025 Piras314 <p1r4s@proton.me>
 // SPDX-FileCopyrightText: 2025 Poips <Hanakohashbrown@gmail.com>
 // SPDX-FileCopyrightText: 2025 PuroSlavKing <103608145+PuroSlavKing@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2025 ReserveBot <211949879+ReserveBot@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2025 ScarKy0 <106310278+ScarKy0@users.noreply.github.com>
-// SPDX-FileCopyrightText: 2025 Schrödinger <132720404+Schrodinger71@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 Solstice <solsticeofthewinter@gmail.com>
-// SPDX-FileCopyrightText: 2025 Svarshik <96281939+lexaSvarshik@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 Whisper <121047731+QuietlyWhisper@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 blobadoodle <me@bloba.dev>
 // SPDX-FileCopyrightText: 2025 coderabbitai[bot] <136622811+coderabbitai[bot]@users.noreply.github.com>
@@ -177,7 +173,6 @@
 // SPDX-FileCopyrightText: 2025 github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 gluesniffler <159397573+gluesniffler@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 kamkoi <poiiiple1@gmail.com>
-// SPDX-FileCopyrightText: 2025 nazrin <tikufaev@outlook.com>
 // SPDX-FileCopyrightText: 2025 shibe <95730644+shibechef@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 tetra <169831122+Foralemes@users.noreply.github.com>
 //
@@ -204,7 +199,6 @@ using Robust.Shared.Player;
 using Robust.Shared.Replays;
 using Robust.Shared.Utility;
 using Content.Server._RMC14.LinkAccount; // RMC - Patreon
-using Content.Server.Discord; //Reserve edit
 
 namespace Content.Server.Chat.Managers;
 
@@ -233,8 +227,6 @@ internal sealed partial class ChatManager : IChatManager
     [Dependency] private readonly PlayerRateLimitManager _rateLimitManager = default!;
     [Dependency] private readonly ISharedPlayerManager _player = default!;
     [Dependency] private readonly LinkAccountManager _linkAccount = default!; // RMC - Patreon
-    [Dependency] private readonly IConfigurationManager _cfg = default!; //Reserve edit
-    [Dependency] private readonly DiscordWebhook _discord = default!; //Reserve edit
 
     /// <summary>
     /// The maximum length a player-sent message can be sent
@@ -459,7 +451,7 @@ internal sealed partial class ChatManager : IChatManager
         _adminLogger.Add(LogType.Chat, LogImpact.Low, $"OOC from {player:Player}: {message}");
     }
 
-    private async void SendAdminChat(ICommonSession player, string message)
+    private void SendAdminChat(ICommonSession player, string message)
     {
         if (!_adminManager.IsAdmin(player))
         {
@@ -467,12 +459,7 @@ internal sealed partial class ChatManager : IChatManager
             return;
         }
 
-        // var clients = _adminManager.ActiveAdmins.Select(p => p.Channel); // ADT-Comment
-        // ADT-Tweak-start: Сортируем в список клиентов только тех кто имеет флаг Adminchat
-        var clients = _adminManager.ActiveAdmins
-        .Where(admin => _adminManager.GetAdminData(admin)?.Flags.HasFlag(AdminFlags.Adminchat) == true)
-        .Select(p => p.Channel);
-        // ADT-Tweak-end
+        var clients = _adminManager.ActiveAdmins.Select(p => p.Channel);
         var wrappedMessage = Loc.GetString("chat-manager-send-admin-chat-wrap-message",
                                         ("adminChannelName", Loc.GetString("chat-manager-admin-channel-name")),
                                         ("playerName", player.Name), ("message", FormattedMessage.EscapeText(message)));
@@ -492,27 +479,6 @@ internal sealed partial class ChatManager : IChatManager
         }
 
         _adminLogger.Add(LogType.Chat, $"Admin chat from {player:Player}: {message}");
-        // ADT-Tweak-start: Постит в дис весь админчат, если есть данный вебхук
-        if (!string.IsNullOrEmpty(_cfg.GetCVar(CCVars.DiscordAdminchatWebhook)))
-        {
-            var webhookUrl = _cfg.GetCVar(CCVars.DiscordAdminchatWebhook);
-
-            if (webhookUrl == null)
-                return;
-
-            if (await _discord.GetWebhook(webhookUrl) is not { } webhookData)
-                return;
-
-            var senderAdmin = _adminManager.GetAdminData(player);
-
-            var payload = new WebhookPayload
-            {
-                Content = $"{player.Name} [{(senderAdmin?.Title ?? "Admin")}]:\n{message}" //Reserve edit
-            };
-            var identifier = webhookData.ToIdentifier();
-            await _discord.CreateMessage(identifier, payload);
-        }
-        // ADT-Tweak-end
     }
 
     #endregion

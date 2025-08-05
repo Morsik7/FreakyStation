@@ -16,15 +16,13 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: construction
-  name: bananium sword
   id: BananiumSword
   graph: BananiumSword
   startNode: start
   targetNode: bananiumSword
   category: construction-category-weapons
-  description: An extremely slippery toy sword made from bananium.
-  icon: { sprite: _Goobstation/Objects/Weapons/Melee/e_sword_bananium.rsi, state: icon }
   objectType: Item
+<<<<<<< HEAD
 
 # Reserve - removed boomerang crafting for balance reasons
 #- type: construction
@@ -38,3 +36,13 @@
 #  icon: { sprite: _Goobstation/Objects/Weapons/Throwable/boomerang.rsi, state: icon }
 #  objectType: Item
 
+=======
+  
+- type: construction
+  id: boomerang
+  graph: boomerangGraph
+  startNode: start
+  targetNode: boomerangFinish
+  category: construction-category-weapons
+  objectType: Item
+>>>>>>> 2d4cc7b23fc57c13985144af3d72dec23366f371

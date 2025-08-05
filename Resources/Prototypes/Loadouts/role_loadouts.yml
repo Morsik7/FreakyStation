@@ -115,6 +115,7 @@
 # SPDX-FileCopyrightText: 2025 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
 # SPDX-FileCopyrightText: 2025 nazrin <tikufaev@outlook.com>
 # SPDX-FileCopyrightText: 2025 pheenty <fedorlukin2006@gmail.com>
+# SPDX-FileCopyrightText: 2025 shityaml <unalterableness@gmail.com>
 # SPDX-FileCopyrightText: 2025 slarticodefast <161409025+slarticodefast@users.noreply.github.com>
 #
 # SPDX-License-Identifier: AGPL-3.0-or-later
@@ -130,6 +131,7 @@
   - CaptainOuterClothing
   - Survival
   - Trinkets
+  - Animals
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -144,6 +146,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Animals
   - GroupSpeciesBreathTool
 
 # Silicons
@@ -172,6 +175,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Animals
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -185,6 +189,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Animals
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -196,6 +201,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Animals
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -210,6 +216,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Animals
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -221,6 +228,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Animals
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -233,6 +241,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Animals
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -248,6 +257,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Animals
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -263,6 +273,7 @@
   - Survival
   - Trinkets
   - JanitorPlunger
+  - Animals
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -276,6 +287,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Animals
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -291,6 +303,7 @@
   - Glasses
   - SurvivalClown
   - Trinkets
+  - Animals
 
 - type: roleLoadout
   id: JobMime
@@ -306,6 +319,7 @@
   - Glasses
   - SurvivalMime
   - Trinkets
+  - Animals
 
 - type: roleLoadout
   id: JobMusician
@@ -318,6 +332,7 @@
   - Survival
   - Trinkets
   - Instruments
+  - Animals
   - GroupSpeciesBreathTool
 
 # Cargo
@@ -334,6 +349,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Animals
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -348,6 +364,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Animals
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -361,6 +378,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Animals
   - GroupSpeciesBreathTool
 
 # Engineering
@@ -376,6 +394,7 @@
   - ChiefEngineerShoes
   - SurvivalExtended
   - Trinkets
+  - Animals
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -386,6 +405,7 @@
   - StationEngineerBackpack
   - SurvivalExtended
   - Trinkets
+  - Animals
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -400,6 +420,7 @@
   - StationEngineerID
   - SurvivalExtended
   - Trinkets
+  - Animals
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -413,6 +434,7 @@
   - AtmosphericTechnicianShoes
   - SurvivalExtended
   - Trinkets
+  - Animals
   - GroupSpeciesBreathTool
 
 # Science
@@ -430,6 +452,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Animals
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -447,6 +470,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Animals
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -458,6 +482,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Animals
   - GroupSpeciesBreathTool
 
 # Security
@@ -475,6 +500,7 @@
   - SurvivalSecurity
   - Trinkets
   - SecurityStar
+  - Animals
   - GroupSpeciesBreathToolSecurity
 
 - type: roleLoadout
@@ -491,6 +517,7 @@
   - SurvivalSecurity
   - Trinkets
   - SecurityStar
+  - Animals
   - GroupSpeciesBreathToolSecurity
 
 - type: roleLoadout
@@ -508,6 +535,7 @@
   - SurvivalSecurity
   - Trinkets
   - SecurityStar
+  - Animals
   - GroupSpeciesBreathToolSecurity
 
 - type: roleLoadout
@@ -522,6 +550,7 @@
   - SurvivalSecurity
   - Trinkets
   - SecurityStar
+  - Animals
   - GroupSpeciesBreathToolSecurity
 
 - type: roleLoadout
@@ -534,6 +563,7 @@
   - SecurityNeck
   - SecurityOuterClothing # Goobstation - Why not.
   - Trinkets
+  - Animals
   - GroupSpeciesBreathToolSecurity
 
 # Medical
@@ -552,6 +582,7 @@
   - MedicalEyewear
   - SurvivalMedical
   - Trinkets
+  - Animals
   - GroupSpeciesBreathToolMedical
 
 - type: roleLoadout
@@ -569,6 +600,7 @@
   - MedicalEyewear
   - SurvivalMedical
   - Trinkets
+  - Animals
   - GroupSpeciesBreathToolMedical
 
 - type: roleLoadout
@@ -580,6 +612,7 @@
   - MedicalEyewear
   - SurvivalMedical
   - Trinkets
+  - Animals
   - GroupSpeciesBreathToolMedical
 
 - type: roleLoadout
@@ -595,6 +628,7 @@
   - MedicalShoes
   - SurvivalMedical
   - Trinkets
+  - Animals
   - GroupSpeciesBreathToolMedical
 
 - type: roleLoadout
@@ -611,6 +645,7 @@
   - MedicalEyewear
   - SurvivalMedical
   - Trinkets
+  - Animals
   - GroupSpeciesBreathToolMedical
 
 # Wildcards
@@ -622,6 +657,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Animals
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -634,6 +670,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Animals
   - GroupSpeciesBreathTool
 
 
@@ -646,6 +683,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Animals
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
@@ -658,6 +696,7 @@
   - Glasses
   - Survival
   - Trinkets
+  - Animals
   - GroupSpeciesBreathTool
 
 # These loadouts are used for non-crew spawns, like off-station antags and event mobs
