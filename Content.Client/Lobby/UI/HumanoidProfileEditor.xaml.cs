@@ -137,12 +137,19 @@
 // SPDX-FileCopyrightText: 2024 voidnull000 <18663194+voidnull000@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 Aiden <28298836+Aidenkrz@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 Ignaz "Ian" Kraft <ignaz.k@live.de>
+// SPDX-FileCopyrightText: 2025 J <billsmith116@gmail.com>
+// SPDX-FileCopyrightText: 2025 Kutosss <162154227+Kutosss@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 Pieter-Jan Briers <pieterjan.briers+git@gmail.com>
 // SPDX-FileCopyrightText: 2025 Piras314 <p1r4s@proton.me>
+// SPDX-FileCopyrightText: 2025 ReserveBot <211949879+ReserveBot@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 SX-7 <92227810+SX-7@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2025 SX-7 <sn1.test.preria.2002@gmail.com>
+// SPDX-FileCopyrightText: 2025 Svarshik <96281939+lexaSvarshik@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 coderabbitai[bot] <136622811+coderabbitai[bot]@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 gluesniffler <159397573+gluesniffler@users.noreply.github.com>
 // SPDX-FileCopyrightText: 2025 metalgearsloth <31366439+metalgearsloth@users.noreply.github.com>
+// SPDX-FileCopyrightText: 2025 nazrin <tikufaev@outlook.com>
+// SPDX-FileCopyrightText: 2025 āda <ss.adasts@gmail.com>
 //
 // SPDX-License-Identifier: AGPL-3.0-or-later
 
@@ -200,6 +207,10 @@ namespace Content.Client.Lobby.UI
         private readonly LobbyUIController _controller;
 
         private readonly SpriteSystem _sprite;
+
+        // CCvar.
+        private int _maxNameLength;
+        private bool _allowFlavorText;
 
         private FlavorText.FlavorText? _flavorText;
         private TextEdit? _flavorTextEdit;
@@ -279,6 +290,10 @@ namespace Content.Client.Lobby.UI
             _requirements = requirements;
             _controller = UserInterfaceManager.GetUIController<LobbyUIController>();
             _sprite = _entManager.System<SpriteSystem>();
+
+            _maxNameLength = _cfgManager.GetCVar(CCVars.MaxNameLength);
+            _allowFlavorText = _cfgManager.GetCVar(CCVars.FlavorText);
+
             ImportButton.OnPressed += args =>
             {
                 ImportProfile();
@@ -314,6 +329,7 @@ namespace Content.Client.Lobby.UI
             #region Name
 
             NameEdit.OnTextChanged += args => { SetName(args.Text); };
+            NameEdit.IsValid = args => args.Length <= _maxNameLength;
             NameRandomize.OnPressed += args => RandomizeName();
             RandomizeEverythingButton.OnPressed += args => { RandomizeEverything(); };
             WarningLabel.SetMarkup($"[color=red]{Loc.GetString("humanoid-profile-editor-naming-rules-warning")}[/color]");
@@ -599,7 +615,7 @@ namespace Content.Client.Lobby.UI
         /// </summary>
         public void RefreshFlavorText()
         {
-            if (_cfgManager.GetCVar(CCVars.FlavorText))
+            if (_allowFlavorText)
             {
                 if (_flavorText != null)
                     return;
@@ -902,6 +918,7 @@ namespace Content.Client.Lobby.UI
             UpdateGenderControls();
             UpdateSkinColor();
             UpdateSpawnPriorityControls();
+            UpdateUplinkPreferenceControls(); // Reserve add
             UpdateAgeEdit();
             UpdateEyePickers();
             UpdateSaveButton();
@@ -1846,5 +1863,50 @@ namespace Content.Client.Lobby.UI
             ImportButton.Disabled = false;
             ExportButton.Disabled = false;
         }
+// Reserve edit start
+        private void UpdateUplinkPreferenceControls()
+        {
+            if (Profile == null)
+            {
+                return;
+            }
+
+            _sawmill.Debug($"Updating uplink controls. Current value: {Profile.UplinkPreference}");
+
+            UplinkPrefButton.OnItemSelected -= OnUplinkPrefSelected;
+            UplinkPrefButton.Clear();
+
+            UplinkPrefButton.AddItem(Loc.GetString("humanoid-profile-editor-uplink-pda"), (int)UplinkPreference.PDA);
+
+            UplinkPrefButton.AddItem(Loc.GetString("humanoid-profile-editor-uplink-implant"), (int)UplinkPreference.Implant);
+
+            UplinkPrefButton.AddItem(Loc.GetString("humanoid-profile-editor-uplink-radio"), (int)UplinkPreference.Radio);
+
+            UplinkPrefButton.AddItem(Loc.GetString("humanoid-profile-editor-uplink-crystals"), (int)UplinkPreference.Telecrystals);
+
+            UplinkPrefButton.SelectId((int)Profile.UplinkPreference);
+            UplinkPrefButton.OnItemSelected += OnUplinkPrefSelected;
+        }
+
+        private void OnUplinkPrefSelected(OptionButton.ItemSelectedEventArgs args)
+        {
+            SetUplinkPreference((UplinkPreference)args.Id);
+        }
+
+        private void SetUplinkPreference(UplinkPreference uplinkPreference)
+        {
+            if (Profile == null)
+                return;
+
+            _sawmill.Debug($"Setting uplink preference. Old: {Profile.UplinkPreference}, New: {uplinkPreference}");
+
+            Profile = Profile.WithUplinkPreference(uplinkPreference);
+            SetDirty();
+
+            UpdateUplinkPreferenceControls();
+
+            _sawmill.Debug($"After setting uplink preference: {Profile.UplinkPreference}");
+        }
+// Reserve edit end
     }
 }
