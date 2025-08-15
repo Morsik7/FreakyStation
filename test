@@ -1,0 +1,5 @@
+const admin1 = {
+   name: "Sherlook"
+   age: 5
+   drugs: true
+}
