@@ -25,5 +25,6 @@ namespace Content.Shared.Eye
         CosmicCultMonument = 1 << 4, // DeltaV - DeltaV - Cosmic Cult
         EldritchInfluence = 1 << 5, // Goobstation
         AGhost = 1 << 6, // WD EDIT
+        Paradox = 1 << 7, //FreakyStation
     }
 }
