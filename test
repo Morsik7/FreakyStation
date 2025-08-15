@@ -1,5 +1,5 @@
 const admin1 = {
    name: "Sherlook"
-   age: 5
+   age: 3
    drugs: true
 }
