@@ -1,31 +1,17 @@
 {
   "version": 1,
-  "license": "CC-BY-NC-3.0",
-  "copyright": "Casha",
+  "license": "CC0-1.0",
+  "copyright": "https://za.pinterest.com/pin/quick-saves--995788167577732151/",
   "size": {
-    "x": 32,
-    "y": 32
+    "x": 128,
+    "y": 128
   },
   "states": [
     {
-      "name": "animated",
-      "frames": 8,
-      "delays": [
-        [
-          0.2,
-          0.2,
-          0.2,
-          0.2,
-          0.2,
-          0.2,
-          0.2,
-          0.2
-        ]
-      ]
+    "name": "animated"
     },
     {
       "name": "icon"
     }
   ]
 }
-
