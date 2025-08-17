@@ -545,3 +545,103 @@
   - type: Battery
     maxCharge: 800
     startingCharge: 800
+
+- type: entity
+  name: immolator
+  parent: [BaseWeaponBattery, BaseSecurityContraband]
+  id: WeaponImmolator
+  description: A modified laser gun, shooting highly concetrated beams with higher intensity that ignites the target, for the cost of draining more power per shot.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Objects/Weapons/Guns/Battery/immolator.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-0
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Appearance
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: StaticPrice
+    price: 100
+  - type: Gun
+    fireRate: 2.1
+    projectileSpeed: 35
+    soundGunshot:
+      path: /Audio/_Goobstation/Weapons/Guns/Gunshots/1xray.ogg
+  - type: ProjectileBatteryAmmoProvider
+    proto: BoltImmolator
+    fireCost: 83.3
+
+- type: entity
+  name: toxic gun
+  parent: [BaseWeaponBattery, BaseSecurityContraband]
+  id: WeaponToxGun
+  description: A specialized firearm designed to fire lethal bolts of toxins.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Objects/Weapons/Guns/Battery/toxgun.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-0
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Item
+    size: Small
+    shape:
+    - 0,0,1,0
+    - 0,1,0,1
+  - type: Appearance
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: StaticPrice
+    price: 100
+  - type: Gun
+    fireRate: 2
+    projectileSpeed: 35
+    soundGunshot:
+      path: /Audio/_Goobstation/Weapons/Guns/Gunshots/1plasma.ogg
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletToxPlasma
+    fireCost: 66.6
+
+- type: entity
+  name: station decloner
+  parent: [BaseWeaponBattery, BaseSecurityContraband]
+  id: WeaponStationDecloner
+  description: A gun that discharges high amounts of controlled radiation to slowly break a target into component elements.
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Objects/Weapons/Guns/Battery/sdecloner.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-unshaded-0
+      map: ["enum.GunVisualLayers.MagUnshaded"]
+      shader: unshaded
+  - type: Item
+    size: Small
+    shape:
+    - 0,0,1,0
+    - 0,1,0,1
+  - type: Appearance
+  - type: MagazineVisuals
+    magState: mag
+    steps: 5
+    zeroVisible: true
+  - type: StaticPrice
+    price: 100
+  - type: Gun
+    fireRate: 2
+    projectileSpeed: 35
+    soundGunshot:
+      path: /Audio/_Goobstation/Weapons/Guns/Gunshots/1pulse2.ogg
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletRadiation
+    fireCost: 66.6

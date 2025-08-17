@@ -50,6 +50,9 @@
 - type: latheRecipePack
   id: SecurityWeaponsGoob
   recipes:
+  - WeaponImmolator
+  - WeaponStationDecloner
+  - WeaponToxGun
   - WeaponSubMachineSmart
   - WeaponEnergyRifle
   - WeaponEnergyIonRifle

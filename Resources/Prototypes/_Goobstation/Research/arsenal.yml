@@ -133,6 +133,21 @@
 # Tier 3
 
 - type: technology
+  id: WeaponToxGun
+  name: research-technology-toxic-gun
+  icon:
+    sprite: _Goobstation/Objects/Weapons/Guns/Battery/toxgun.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 3
+  cost: 15000
+  recipeUnlocks:
+  - WeaponToxGun
+  position: 6,2
+  technologyPrerequisites:
+  - EnergyBoltBasedWeaponry
+
+- type: technology
   id: WeaponLaserCellSniperTech
   name: research-technology-mag-fed-sniper
   icon:

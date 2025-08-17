@@ -256,9 +256,10 @@
     state: icon
   discipline: Arsenal
   tier: 2
-  cost: 10000
+  cost: 15000
   recipeUnlocks:
   - WeaponXrayCannon
+  - WeaponStationDecloner # FreakyStation
   - HoloprojectorSecurityAdvanced # Goobstation
   - PowerCellXrayRevolver # Goobstation
   - PowerCellXraySMG # Goobstation
@@ -306,6 +307,7 @@
   recipeUnlocks:
   - WeaponAdvancedLaser
   - PortableRecharger
+  - WeaponImmolator # FreakyStation 
   - WeaponMechCombatImmolationGun # Goobstation
   - EnergyMagRifleOverchargeLethal # Goobstation - CR second energy bolt update(and ion)
   - PowerCellOverchargedRevolver # Goobstation

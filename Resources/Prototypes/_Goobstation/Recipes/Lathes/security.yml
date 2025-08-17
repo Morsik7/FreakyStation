@@ -226,6 +226,37 @@
     Plastic: 750
     Gold: 500
 
+- type: latheRecipe
+  parent: BaseWeaponRecipeLong
+  id: WeaponImmolator
+  result: WeaponImmolator
+  materials:
+    Steel: 1100
+    Glass: 750
+    Gold: 550
+    Silver: 850
+    Plasma: 550
+
+- type: latheRecipe
+  parent: BaseWeaponRecipeLong
+  id: WeaponStationDecloner
+  result: WeaponStationDecloner
+  materials:
+    Steel: 600
+    Glass: 350
+    Silver: 550
+    Uranium: 1000
+
+- type: latheRecipe
+  parent: BaseWeaponRecipeLong
+  id: WeaponToxGun
+  result: WeaponToxGun
+  materials:
+    Steel: 650
+    Glass: 350
+    Silver: 850
+    Plasma: 850
+
 # Smartgun
 
 - type: latheRecipe
