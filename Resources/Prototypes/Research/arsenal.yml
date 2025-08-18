@@ -259,7 +259,7 @@
   cost: 15000
   recipeUnlocks:
   - WeaponXrayCannon
-  - WeaponStationDecloner # FreakyStation
+  #- WeaponStationDecloner # FreakyStation # Сломался из за апстрима
   - HoloprojectorSecurityAdvanced # Goobstation
   - PowerCellXrayRevolver # Goobstation
   - PowerCellXraySMG # Goobstation
@@ -307,7 +307,7 @@
   recipeUnlocks:
   - WeaponAdvancedLaser
   - PortableRecharger
-  - WeaponImmolator # FreakyStation 
+  #- WeaponImmolator # FreakyStation # Сломался из за апстрима
   - WeaponMechCombatImmolationGun # Goobstation
   - EnergyMagRifleOverchargeLethal # Goobstation - CR second energy bolt update(and ion)
   - PowerCellOverchargedRevolver # Goobstation

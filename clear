@@ -1,0 +1,140 @@
+[33mcommit 20c6a7d4af161126a7a57e9b63470273d8bd4101[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mapstrem[m[33m, [m[1;32mmaster[m[33m)[m
+Author: unknown <Egorkashilkin@gmail.com>
+Date:   Sun Aug 17 03:05:13 2025 +0300
+
+    перенос папок, апстрем
+
+[1mdiff --git a/.github/FUNDING.yml b/.github/FUNDING.yml[m
+[1mindex 1fd006a8ee..a5cbcb759a 100644[m
+[1m--- a/.github/FUNDING.yml[m
+[1m+++ b/.github/FUNDING.yml[m
+[36m@@ -16,4 +16,4 @@[m [mlfx_crowdfunding: # Replace with a single LFX Crowdfunding project-name e.g., cl[m
+ polar: # Replace with a single Polar username[m
+ buy_me_a_coffee: # Replace with a single Buy Me a Coffee username[m
+ thanks_dev: # Replace with a single thanks.dev username[m
+[31m-custom: https://boosty.to/reserve-station # Replace with up to 4 custom sponsorship URLs e.g., ['link1', 'link2'][m
+[32m+[m[32mcustom: https://boosty.to/sherlol # Replace with up to 4 custom sponsorship URLs e.g., ['link1', 'link2'][m
+[1mdiff --git a/Content.Client/Clothing/ClientClothingSystem.cs b/Content.Client/Clothing/ClientClothingSystem.cs[m
+[1mindex 803219aa13..cb7005b670 100644[m
+[1m--- a/Content.Client/Clothing/ClientClothingSystem.cs[m
+[1m+++ b/Content.Client/Clothing/ClientClothingSystem.cs[m
+[36m@@ -81,12 +81,14 @@[m [mpublic sealed class ClientClothingSystem : ClothingSystem[m
+         {"pocket1", "POCKET1"},[m
+         {"pocket2", "POCKET2"},[m
+         {"suitstorage", "SUITSTORAGE"},[m
+[32m+[m		[32m{"underwear", "UNDERWEAR"},[m
+[32m+[m		[32m{"socks", "SOCKS"},[m
+[32m+[m		[32m{"breast", "BREAST"},[m
+     };[m
+ [m
+     [Dependency] private readonly IResourceCache _cache = default!;[m
+     [Dependency] private readonly InventorySystem _inventorySystem = default!;[m
+     [Dependency] private readonly DisplacementMapSystem _displacement = default!;[m
+[31m-    [Dependency] private readonly SpriteSystem _sprite = default!;[m
+ [m
+     public override void Initialize()[m
+     {[m
+[36m@@ -109,10 +111,10 @@[m [mprivate void OnAppearanceUpdate(EntityUid uid, InventoryComponent component, ref[m
+         UpdateAllSlots(uid, component);[m
+ [m
+         // No clothing equipped -> make sure the layer is hidden, though this should already be handled by on-unequip.[m
+[31m-        if (_sprite.LayerMapTryGet((uid, args.Sprite), HumanoidVisualLayers.StencilMask, out var layer, false))[m
+[32m+[m[32m        if (args.Sprite.LayerMapTryGet(HumanoidVisualLayers.StencilMask, out var layer))[m
+         {[m
+             DebugTools.Assert(!args.Sprite[layer].Visible);[m
+[31m-            _sprite.LayerSetVisible((uid, args.Sprite), layer, false);[m
+[32m+[m[32m            args.Sprite.LayerSetVisible(layer, false);[m
+         }[m
+     }[m
+ [m
+[36m@@ -227,9 +229,9 @@[m [mprivate void OnVisualsChanged(EntityUid uid, InventoryComponent component, Visua[m
+         RenderEquipment(uid, item, clothing.InSlot, component, null, clothing);[m
+     }[m
+ [m
+[31m-    private void OnDidUnequip(Entity<SpriteComponent> entity, ref DidUnequipEvent args)[m
+[32m+[m[32m    private void OnDidUnequip(EntityUid uid, SpriteComponent component, DidUnequipEvent args)[m
+     {[m
+[31m-        if (!TryComp(entity, out InventorySlotsComponent? inventorySlots))[m
+[32m+[m[32m        if (!TryComp(uid, out InventorySlotsComponent? inventorySlots))[m
+             return;[m
+ [m
+         if (!inventorySlots.VisualLayerKeys.TryGetValue(args.Slot, out var revealedLayers))[m
+[36m@@ -239,7 +241,7 @@[m [mprivate void OnDidUnequip(Entity<SpriteComponent> entity, ref DidUnequipEvent ar[m
+         // may eventually bloat the player with lots of invisible layers.[m
+         foreach (var layer in revealedLayers)[m
+         {[m
+[31m-            _sprite.RemoveLayer(entity.AsNullable(), layer);[m
+[32m+[m[32m            component.RemoveLayer(layer);[m
+         }[m
+         revealedLayers.Clear();[m
+     }[m
+[36m@@ -282,7 +284,7 @@[m [mprivate void RenderEquipment(EntityUid equipee, EntityUid equipment, string slot[m
+         {[m
+             foreach (var key in revealedLayers)[m
+             {[m
+[31m-                _sprite.RemoveLayer((equipee, sprite), key);[m
+[32m+[m[32m                sprite.RemoveLayer(key);[m
+             }[m
+             revealedLayers.Clear();[m
+         }[m
+[36m@@ -312,7 +314,7 @@[m [mprivate void RenderEquipment(EntityUid equipee, EntityUid equipment, string slot[m
+         // temporary, until layer draw depths get added. Basically: a layer with the key "slot" is being used as a[m
+         // bookmark to determine where in the list of layers we should insert the clothing layers.[m
+         if (!slotLayerExists)[m
+[31m-            slotLayerExists = _sprite.LayerMapTryGet((equipee, sprite), slot, out index, false);[m
+[32m+[m[32m            slotLayerExists = sprite.LayerMapTryGet(slot, out index);[m
+ [m
+         var hiddenEv = new CheckClothingSlotHiddenEvent(slot);[m
+         RaiseLocalEvent(equipee, ref hiddenEv);[m
+[36m@@ -350,18 +352,18 @@[m [mprivate void RenderEquipment(EntityUid equipee, EntityUid equipment, string slot[m
+             {[m
+                 index++;[m
+                 // note that every insertion requires reshuffling & remapping all the existing layers.[m
+[31m-                _sprite.AddBlankLayer((equipee, sprite), index);[m
+[31m-                _sprite.LayerMapSet((equipee, sprite), key, index);[m
+[32m+[m[32m                sprite.AddBlankLayer(index);[m
+[32m+[m[32m                sprite.LayerMapSet(key, index);[m
+ [m
+                 if (layerData.Color != null)[m
+[31m-                    _sprite.LayerSetColor((equipee, sprite), key, layerData.Color.Value);[m
+[32m+[m[32m                    sprite.LayerSetColor(key, layerData.Color.Value);[m
+                 if (layerData.Scale != null)[m
+[31m-                    _sprite.LayerSetScale((equipee, sprite), key, layerData.Scale.Value);[m
+[32m+[m[32m                    sprite.LayerSetScale(key, layerData.Scale.Value);[m
+                 if (!hiddenEv.Visible) // Goobstation[m
+[31m-                    _sprite.LayerSetVisible((equipee, sprite), key, false);[m
+[32m+[m[32m                    sprite.LayerSetVisible(key, false);[m
+             }[m
+             else[m
+[31m-                index = _sprite.LayerMapReserve((equipee, sprite), key);[m
+[32m+[m[32m                index = sprite.LayerMapReserveBlank(key);[m
+ [m
+             if (sprite[index] is not Layer layer)[m
+                 continue;[m
+[36m@@ -372,13 +374,13 @@[m [mprivate void RenderEquipment(EntityUid equipee, EntityUid equipment, string slot[m
+                 && layer.RSI == null[m
+                 && TryComp(equipment, out SpriteComponent? clothingSprite))[m
+             {[m
+[31m-                _sprite.LayerSetRsi(layer, clothingSprite.BaseRSI);[m
+[32m+[m[32m                layer.SetRsi(clothingSprite.BaseRSI);[m
+             }[m
+ [m
+[31m-            _sprite.LayerSetData((equipee, sprite), index, layerData);[m
+[31m-            _sprite.LayerSetOffset(layer, layer.Offset + slotDef.Offset);[m
+[32m+[m[32m            sprite.LayerSetData(index, layerData);[m
+[32m+[m[32m            layer.Offset += slotDef.Offset;[m
+             if (!hiddenEv.Visible) // Goobstation[m
+[31m-                _sprite.LayerSetVisible(layer, false);[m
+[32m+[m[32m                layer.Visible = false;[m
+ [m
+             if (displacementData is not null)[m
+             {[m
+[36m@@ -386,7 +388,7 @@[m [mprivate void RenderEquipment(EntityUid equipee, EntityUid equipment, string slot[m
+                 if (layerData.State is not null && inventory.SpeciesId is not null && layerData.State.EndsWith(inventory.SpeciesId))[m
+                     continue;[m
+ [m
+[31m-                if (_displacement.TryAddDisplacement(displacementData, (equipee, sprite), index, key, out var displacementKey))[m
+[32m+[m[32m                if (_displacement.TryAddDisplacement(displacementData, sprite, index, key, out var displacementKey))[m
+                 {[m
+                     revealedLayers.Add(displacementKey);[m
+                     index+
