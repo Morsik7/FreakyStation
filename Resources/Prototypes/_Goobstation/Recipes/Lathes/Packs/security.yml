@@ -50,9 +50,9 @@
 - type: latheRecipePack
   id: SecurityWeaponsGoob
   recipes:
-  #- WeaponImmolator
-  #- WeaponStationDecloner
-  #- WeaponToxGun
+  - WeaponImmolator
+  - WeaponStationDecloner
+  - WeaponToxGun
   - WeaponSubMachineSmart
   - WeaponEnergyRifle
   - WeaponEnergyIonRifle
@@ -97,8 +97,8 @@
   recipes:
   - SecurityCyberneticEyes
 
-#- type: latheRecipePack
-#  id: RestraintTechnology
-#  recipes:
-#  - ClothingMaskMuzzleSecure
-#  - ClothingMaskMuzzleShock
+- type: latheRecipePack
+  id: RestraintTechnology
+  recipes:
+  - ClothingMaskMuzzleSecure
+  - ClothingMaskMuzzleShock
