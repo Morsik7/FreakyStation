@@ -63535,18 +63535,6 @@ entities:
     - type: Transform
       pos: -36.49547,-36.772636
       parent: 60
-- proto: ClothingUnderSocksCoder
-  entities:
-  - uid: 6780
-    components:
-    - type: Transform
-      pos: -40.49934,-36.642094
-      parent: 60
-  - uid: 18607
-    components:
-    - type: Transform
-      pos: -7.4850764,5.544639
-      parent: 60
 - proto: ClothingUniformColorRainbow
   entities:
   - uid: 7004

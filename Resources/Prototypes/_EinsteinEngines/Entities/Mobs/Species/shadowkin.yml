@@ -149,10 +149,8 @@
           visible: false
         - map: ["enum.HumanoidVisualLayers.LFoot"]
         - map: ["enum.HumanoidVisualLayers.RFoot"]
-        - map: ["socks"]
         - map: ["underpants"]
         - map: ["undershirt"]
-        - map: [ "socks" ]
         - map: [ "underwear" ]
         - map: [ "breast" ]
         - map: ["jumpsuit"]
@@ -250,7 +248,6 @@
           visible: false
         - map: ["enum.HumanoidVisualLayers.LFoot"]
         - map: ["enum.HumanoidVisualLayers.RFoot"]
-        - map: ["socks"]
         - map: ["underpants"]
         - map: ["undershirt"]
         - map: ["jumpsuit"]

@@ -61821,18 +61821,6 @@ entities:
     - type: Transform
       pos: 65.71732,-54.803154
       parent: 2
-- proto: ClothingUnderSocksCoder
-  entities:
-  - uid: 909
-    components:
-    - type: Transform
-      pos: -29.479565,-9.341941
-      parent: 2
-  - uid: 7739
-    components:
-    - type: Transform
-      pos: 26.983047,-46.429325
-      parent: 2
 - proto: ClothingUniformJumpskirtDetectiveGrey
   entities:
   - uid: 15939

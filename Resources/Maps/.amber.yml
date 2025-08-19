@@ -68781,13 +68781,6 @@ entities:
     - type: Transform
       pos: 21.606699,15.433804
       parent: 2
-- proto: ClothingUnderSocksCoder
-  entities:
-  - uid: 6471
-    components:
-    - type: Transform
-      pos: 27.539923,-8.522268
-      parent: 2
 - proto: ClothingUniformColorRainbow
   entities:
   - uid: 19887
